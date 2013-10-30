@@ -1,0 +1,10 @@
+117c117
+<     double r  = sqrt(xd*xd + yd*yd);
+---
+>     double r  = sqrt(xd*xd + yd*yd) + 0.000000001;
+119c119
+<     return (long int) (ceil (r));
+---
+>     return (long int)r;
+209a210
+> 

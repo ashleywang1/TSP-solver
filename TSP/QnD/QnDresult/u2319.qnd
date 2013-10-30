@@ -1,0 +1,124 @@
+*********************************************************
+**   HOST:  nikola.cau.edu
+**   PWD:  /home/awang/LKH-2.0.6/QnD
+**   DATE:  Sun Aug 19 11:20:52 EDT 2012
+*********************************************************
+default:openmpi-1.4-gcc-x86_64
+level:system
+*********************************************************
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 204800
+max locked memory       (kbytes, -l) 32
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) unlimited
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) 204800
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+rm: cannot remove `*opt.tour': No such file or directory
+PARAMETER_FILE = u2319.par
+Reading PROBLEM_FILE: "u2319.tsp" ... done
+ASCENT_CANDIDATES = 50
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+EXCESS = 0.00043122
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = YES
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 1159
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+INPUT_TOUR_FILE = u2319.ant.tour
+KICK_TYPE = 0
+KICKS = 1
+# MAX_BREADTH =
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 2319
+MAX_TRIALS = 2319
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5
+NONSEQUENTIAL_MOVE_TYPE = 9
+# OPTIMUM =
+OUTPUT_TOUR_FILE = u2319.tour
+PATCHING_A = 2 
+PATCHING_C = 3 
+# PI_FILE = 
+# POPULATION_SIZE = 0
+PRECISION = 100
+PROBLEM_FILE = u2319.tsp
+RESTRICTED_SEARCH = YES
+RUNS = 10
+SEED = 1
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+# TOUR_FILE = 
+TRACE_LEVEL = 1
+
+Reading INPUT_TOUR_FILE: "u2319.ant.tour" ... done
+Lower bound = 234141.7, Ascent time = 8.6 sec.
+Cand.min = 2, Cand.avg = 5.0, Cand.max = 5
+Preprocessing time = 8.9 sec.
+* 1: Cost = 234338, Time = 0.3 sec. 
+Writing OUTPUT_TOUR_FILE: "u2319.tour" ... done
+* 3: Cost = 234256, Time = 0.7 sec. 
+Writing OUTPUT_TOUR_FILE: "u2319.tour" ... done
+Writing OUTPUT_TOUR_FILE: "u2319.tour" ... done
+Run 1: Cost = 234256, Time = 337.8 sec. 
+
+* 1: Cost = 234256, Time = 0.2 sec. 
+Run 2: Cost = 234256, Time = 292.9 sec. 
+
+* 1: Cost = 234437, Time = 0.2 sec. 
+* 2: Cost = 234355, Time = 0.4 sec. 
+* 7: Cost = 234338, Time = 1.2 sec. 
+* 21: Cost = 234256, Time = 3.0 sec. 
+Run 3: Cost = 234256, Time = 303.3 sec. 
+
+* 1: Cost = 234420, Time = 0.4 sec. 
+* 3: Cost = 234338, Time = 0.7 sec. 
+* 8: Cost = 234256, Time = 1.4 sec. 
+Run 4: Cost = 234256, Time = 299.2 sec. 
+
+* 1: Cost = 234355, Time = 0.3 sec. 
+* 2: Cost = 234273, Time = 0.4 sec. 
+* 6: Cost = 234256, Time = 1.0 sec. 
+Run 5: Cost = 234256, Time = 314.6 sec. 
+
+* 1: Cost = 234420, Time = 0.2 sec. 
+* 2: Cost = 234338, Time = 0.2 sec. 
+* 8: Cost = 234256, Time = 0.9 sec. 
+Run 6: Cost = 234256, Time = 317.1 sec. 
+
+* 1: Cost = 234338, Time = 0.2 sec. 
+* 6: Cost = 234256, Time = 0.8 sec. 
+Run 7: Cost = 234256, Time = 292.5 sec. 
+
+* 1: Cost = 234338, Time = 0.2 sec. 
+* 4: Cost = 234256, Time = 0.6 sec. 
+Run 8: Cost = 234256, Time = 297.9 sec. 
+
+* 1: Cost = 234355, Time = 0.2 sec. 
+* 2: Cost = 234338, Time = 0.3 sec. 
+* 3: Cost = 234256, Time = 0.5 sec. 
+Run 9: Cost = 234256, Time = 305.0 sec. 
+
+* 1: Cost = 234355, Time = 0.2 sec. 
+* 5: Cost = 234338, Time = 0.9 sec. 
+* 10: Cost = 234256, Time = 1.8 sec. 

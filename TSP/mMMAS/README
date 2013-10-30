@@ -1,0 +1,4 @@
+To test the convergence of dsj1000 TSP behavior, try
+  nohup ./dsj1000.run &
+The output should be similar to best.dsj1000 in mMMASresult
+Several previous testing results are attached in this directory mMMASresult

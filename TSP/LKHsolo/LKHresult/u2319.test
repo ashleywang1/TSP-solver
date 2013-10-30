@@ -1,0 +1,100 @@
+PARAMETER_FILE = u2319.par
+Reading PROBLEM_FILE: "u2319.tsp" ... done
+ASCENT_CANDIDATES = 50
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+EXCESS = 0.00043122
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = YES
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 1159
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 0
+KICKS = 1
+# MAX_BREADTH =
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 2319
+MAX_TRIALS = 2319
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5
+NONSEQUENTIAL_MOVE_TYPE = 9
+# OPTIMUM =
+OUTPUT_TOUR_FILE = u2319.tour
+PATCHING_A = 2 
+PATCHING_C = 3 
+# PI_FILE = 
+# POPULATION_SIZE = 0
+PRECISION = 100
+PROBLEM_FILE = u2319.tsp
+RESTRICTED_SEARCH = YES
+RUNS = 10
+SEED = 1
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+# TOUR_FILE = 
+TRACE_LEVEL = 1
+
+Lower bound = 234152.0, Ascent time = 5.4 sec.
+Cand.min = 2, Cand.avg = 5.0, Cand.max = 5
+Preprocessing time = 5.6 sec.
+* 1: Cost = 234256, Time = 0.1 sec. 
+Writing OUTPUT_TOUR_FILE: "u2319.tour" ... done
+Writing OUTPUT_TOUR_FILE: "u2319.tour" ... done
+Run 1: Cost = 234256, Time = 338.2 sec. 
+
+* 1: Cost = 234338, Time = 0.2 sec. 
+* 2: Cost = 234256, Time = 0.3 sec. 
+Run 2: Cost = 234256, Time = 320.1 sec. 
+
+* 1: Cost = 234338, Time = 0.2 sec. 
+* 2: Cost = 234256, Time = 0.3 sec. 
+Run 3: Cost = 234256, Time = 329.6 sec. 
+
+* 1: Cost = 234338, Time = 0.1 sec. 
+* 4: Cost = 234256, Time = 0.5 sec. 
+Run 4: Cost = 234256, Time = 351.7 sec. 
+
+* 1: Cost = 234355, Time = 0.2 sec. 
+* 2: Cost = 234256, Time = 0.3 sec. 
+Run 5: Cost = 234256, Time = 338.0 sec. 
+
+* 1: Cost = 234420, Time = 0.3 sec. 
+* 2: Cost = 234355, Time = 0.6 sec. 
+* 3: Cost = 234273, Time = 0.7 sec. 
+* 5: Cost = 234256, Time = 1.1 sec. 
+Run 6: Cost = 234256, Time = 349.1 sec. 
+
+* 1: Cost = 234273, Time = 0.1 sec. 
+* 2: Cost = 234256, Time = 0.2 sec. 
+Run 7: Cost = 234256, Time = 342.0 sec. 
+
+* 1: Cost = 234355, Time = 0.4 sec. 
+* 2: Cost = 234338, Time = 0.5 sec. 
+* 3: Cost = 234256, Time = 0.7 sec. 
+Run 8: Cost = 234256, Time = 346.0 sec. 
+
+* 1: Cost = 234338, Time = 0.2 sec. 
+* 3: Cost = 234256, Time = 0.5 sec. 
+Run 9: Cost = 234256, Time = 345.2 sec. 
+
+* 1: Cost = 234273, Time = 0.2 sec. 
+* 22: Cost = 234256, Time = 4.3 sec. 
+Run 10: Cost = 234256, Time = 335.1 sec. 
+
+Successes/Runs = 0/10 
+Cost.min = 234256, Cost.avg = 234256.00, Cost.max = 234256
+Gap.min = 0.000%, Gap.avg = 0.000%, Gap.max = 0.000%
+Trials.min = 2319, Trials.avg = 2319.0, Trials.max = 2319
+Time.min = 320.1 sec., Time.avg = 339.5 sec., Time.max = 351.7 sec.

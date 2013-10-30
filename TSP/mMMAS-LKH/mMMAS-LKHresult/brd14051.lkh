@@ -1,0 +1,92 @@
+PARAMETER_FILE = brd14051.par
+Reading PROBLEM_FILE: "brd14051.tsp" ... done
+ASCENT_CANDIDATES = 50
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+EXCESS = 7.11693e-05
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = YES
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 7025
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+INPUT_TOUR_FILE = brd14051.ant.tour
+KICK_TYPE = 0
+KICKS = 1
+# MAX_BREADTH =
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 14051
+MAX_TRIALS = 14051
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 8
+NONSEQUENTIAL_MOVE_TYPE = 12
+OPTIMUM = 469385
+OUTPUT_TOUR_FILE = brd14051.tour
+PATCHING_A = 2 
+PATCHING_C = 3 
+# PI_FILE = 
+# POPULATION_SIZE = 0
+PRECISION = 100
+PROBLEM_FILE = brd14051.tsp
+RESTRICTED_SEARCH = YES
+RUNS = 1
+SEED = 1
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 8
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+# TOUR_FILE = 
+TRACE_LEVEL = 1
+
+Reading INPUT_TOUR_FILE: "brd14051.ant.tour" ... done
+Lower bound = 467118.0, Gap = 0.48%, Ascent time = 281.2 sec.
+Cand.min = 3, Cand.avg = 5.0, Cand.max = 6
+Preprocessing time = 287.2 sec.
+* 1: Cost = 469448, Gap = 0.013%, Time = 8.1 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 3: Cost = 469427, Gap = 0.009%, Time = 10.4 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 4: Cost = 469423, Gap = 0.008%, Time = 10.5 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 6: Cost = 469421, Gap = 0.008%, Time = 10.7 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 7: Cost = 469417, Gap = 0.007%, Time = 10.8 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 14: Cost = 469414, Gap = 0.006%, Time = 11.5 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 23: Cost = 469413, Gap = 0.006%, Time = 12.4 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 25: Cost = 469411, Gap = 0.006%, Time = 12.7 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 57: Cost = 469406, Gap = 0.004%, Time = 15.6 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 137: Cost = 469405, Gap = 0.004%, Time = 23.5 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 146: Cost = 469404, Gap = 0.004%, Time = 24.0 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 450: Cost = 469399, Gap = 0.003%, Time = 49.5 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 459: Cost = 469394, Gap = 0.002%, Time = 50.1 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 896: Cost = 469388, Gap = 0.001%, Time = 64.5 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 2039: Cost = 469386, Gap = 0.000%, Time = 100.3 sec. 
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+* 6271: Cost = 469385, Gap = 0.000%, Time = 326.9 sec. =
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+Writing OUTPUT_TOUR_FILE: "brd14051.tour" ... done
+Run 1: Cost = 469385, Gap = 0.000%, Time = 326.9 sec. =
+
+Successes/Runs = 1/1 
+Cost.min = 469385, Cost.avg = 469385.00, Cost.max = 469385
+Gap.min = 0.000%, Gap.avg = 0.000%, Gap.max = 0.000%
+Trials.min = 6271, Trials.avg = 6271.0, Trials.max = 6271
+Time.min = 326.9 sec., Time.avg = 326.9 sec., Time.max = 326.9 sec.

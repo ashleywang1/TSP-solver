@@ -1,0 +1,3 @@
+64,65d63
+< 
+< void two_p_opt ( long int *tour );

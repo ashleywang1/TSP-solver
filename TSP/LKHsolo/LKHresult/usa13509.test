@@ -1,0 +1,815 @@
+PARAMETER_FILE = usa13509.par
+Reading PROBLEM_FILE: "usa13509.tsp" ... done
+ASCENT_CANDIDATES = 50
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+EXCESS = 7.40247e-05
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = YES
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 6754
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 0
+KICKS = 1
+# MAX_BREADTH =
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 13509
+MAX_TRIALS = 13509
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5
+NONSEQUENTIAL_MOVE_TYPE = 9
+OPTIMUM = 19982859
+OUTPUT_TOUR_FILE = usa13509.tour
+PATCHING_A = 2 
+PATCHING_C = 3 
+# PI_FILE = 
+# POPULATION_SIZE = 0
+PRECISION = 100
+PROBLEM_FILE = usa13509.tsp
+RESTRICTED_SEARCH = YES
+RUNS = 10
+SEED = 1
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+# TOUR_FILE = 
+TRACE_LEVEL = 1
+
+Lower bound = 19849705.9, Gap = 0.67%, Ascent time = 263.8 sec.
+Cand.min = 3, Cand.avg = 5.0, Cand.max = 5
+Preprocessing time = 269.4 sec.
+* 1: Cost = 20008240, Gap = 0.127%, Time = 5.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 2: Cost = 20003399, Gap = 0.103%, Time = 6.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 3: Cost = 20002510, Gap = 0.098%, Time = 6.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 4: Cost = 20001829, Gap = 0.095%, Time = 7.1 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 6: Cost = 20001057, Gap = 0.091%, Time = 7.7 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 9: Cost = 20000184, Gap = 0.087%, Time = 8.2 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 10: Cost = 19999562, Gap = 0.084%, Time = 8.7 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 14: Cost = 19999524, Gap = 0.083%, Time = 10.4 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 15: Cost = 19999414, Gap = 0.083%, Time = 10.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 20: Cost = 19999306, Gap = 0.082%, Time = 12.2 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 22: Cost = 19999301, Gap = 0.082%, Time = 13.4 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 23: Cost = 19999264, Gap = 0.082%, Time = 13.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 24: Cost = 19999207, Gap = 0.082%, Time = 13.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 28: Cost = 19999092, Gap = 0.081%, Time = 14.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 29: Cost = 19998924, Gap = 0.080%, Time = 15.1 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 32: Cost = 19992656, Gap = 0.049%, Time = 15.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 34: Cost = 19992322, Gap = 0.047%, Time = 16.0 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 36: Cost = 19992278, Gap = 0.047%, Time = 16.4 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 38: Cost = 19992017, Gap = 0.046%, Time = 16.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 39: Cost = 19991560, Gap = 0.044%, Time = 17.1 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 41: Cost = 19991500, Gap = 0.043%, Time = 17.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 44: Cost = 19991434, Gap = 0.043%, Time = 18.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 48: Cost = 19991409, Gap = 0.043%, Time = 22.0 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 55: Cost = 19991404, Gap = 0.043%, Time = 23.0 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 67: Cost = 19991255, Gap = 0.042%, Time = 26.3 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 77: Cost = 19991001, Gap = 0.041%, Time = 28.2 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 79: Cost = 19989608, Gap = 0.034%, Time = 28.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 93: Cost = 19989397, Gap = 0.033%, Time = 31.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 104: Cost = 19989279, Gap = 0.032%, Time = 34.0 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 125: Cost = 19989228, Gap = 0.032%, Time = 38.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 126: Cost = 19989105, Gap = 0.031%, Time = 39.2 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 135: Cost = 19988637, Gap = 0.029%, Time = 42.0 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 136: Cost = 19988622, Gap = 0.029%, Time = 42.2 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 140: Cost = 19988577, Gap = 0.029%, Time = 42.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 148: Cost = 19988264, Gap = 0.027%, Time = 44.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 155: Cost = 19987987, Gap = 0.026%, Time = 47.5 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 161: Cost = 19987713, Gap = 0.024%, Time = 48.7 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 165: Cost = 19987711, Gap = 0.024%, Time = 49.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 166: Cost = 19987618, Gap = 0.024%, Time = 50.1 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 173: Cost = 19987435, Gap = 0.023%, Time = 51.2 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 194: Cost = 19987377, Gap = 0.023%, Time = 56.1 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 212: Cost = 19987124, Gap = 0.021%, Time = 60.0 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 245: Cost = 19987093, Gap = 0.021%, Time = 65.5 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 275: Cost = 19986828, Gap = 0.020%, Time = 69.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 330: Cost = 19986213, Gap = 0.017%, Time = 82.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 349: Cost = 19985953, Gap = 0.015%, Time = 85.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 354: Cost = 19985834, Gap = 0.015%, Time = 87.5 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 363: Cost = 19985513, Gap = 0.013%, Time = 88.3 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 376: Cost = 19985227, Gap = 0.012%, Time = 90.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 423: Cost = 19984986, Gap = 0.011%, Time = 100.0 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 436: Cost = 19984974, Gap = 0.011%, Time = 103.4 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 440: Cost = 19984956, Gap = 0.010%, Time = 103.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 587: Cost = 19984869, Gap = 0.010%, Time = 136.3 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 615: Cost = 19984374, Gap = 0.008%, Time = 147.4 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 725: Cost = 19984299, Gap = 0.007%, Time = 171.7 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 899: Cost = 19984286, Gap = 0.007%, Time = 218.4 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 969: Cost = 19984250, Gap = 0.007%, Time = 233.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 978: Cost = 19984196, Gap = 0.007%, Time = 237.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 979: Cost = 19984160, Gap = 0.007%, Time = 237.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 1087: Cost = 19983991, Gap = 0.006%, Time = 260.5 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 1608: Cost = 19983977, Gap = 0.006%, Time = 360.4 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 1653: Cost = 19983972, Gap = 0.006%, Time = 374.3 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 1675: Cost = 19983961, Gap = 0.006%, Time = 377.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 2603: Cost = 19983797, Gap = 0.005%, Time = 570.5 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 3063: Cost = 19983594, Gap = 0.004%, Time = 675.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 3094: Cost = 19983484, Gap = 0.003%, Time = 682.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 4430: Cost = 19983483, Gap = 0.003%, Time = 998.9 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 4958: Cost = 19983451, Gap = 0.003%, Time = 1144.6 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 4968: Cost = 19983330, Gap = 0.002%, Time = 1147.8 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 10502: Cost = 19983103, Gap = 0.001%, Time = 2592.2 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+Run 1: Cost = 19983103, Gap = 0.001%, Time = 3272.7 sec. 
+
+* 1: Cost = 20022590, Gap = 0.199%, Time = 4.2 sec. 
+* 2: Cost = 20021939, Gap = 0.196%, Time = 6.5 sec. 
+* 4: Cost = 20021794, Gap = 0.195%, Time = 6.8 sec. 
+* 5: Cost = 20019366, Gap = 0.183%, Time = 7.7 sec. 
+* 7: Cost = 20019191, Gap = 0.182%, Time = 8.6 sec. 
+* 9: Cost = 20018887, Gap = 0.180%, Time = 9.0 sec. 
+* 12: Cost = 20016950, Gap = 0.171%, Time = 9.4 sec. 
+* 13: Cost = 20006656, Gap = 0.119%, Time = 10.1 sec. 
+* 14: Cost = 20005525, Gap = 0.113%, Time = 10.3 sec. 
+* 17: Cost = 20005342, Gap = 0.113%, Time = 10.6 sec. 
+* 18: Cost = 20005081, Gap = 0.111%, Time = 10.8 sec. 
+* 19: Cost = 20004856, Gap = 0.110%, Time = 11.0 sec. 
+* 21: Cost = 20004816, Gap = 0.110%, Time = 12.0 sec. 
+* 23: Cost = 20004760, Gap = 0.110%, Time = 12.2 sec. 
+* 24: Cost = 20003859, Gap = 0.105%, Time = 12.6 sec. 
+* 28: Cost = 20003553, Gap = 0.104%, Time = 14.0 sec. 
+* 29: Cost = 20003350, Gap = 0.103%, Time = 14.5 sec. 
+* 30: Cost = 20002623, Gap = 0.099%, Time = 14.6 sec. 
+* 31: Cost = 20002236, Gap = 0.097%, Time = 14.8 sec. 
+* 37: Cost = 20002155, Gap = 0.097%, Time = 15.9 sec. 
+* 40: Cost = 20002018, Gap = 0.096%, Time = 16.3 sec. 
+* 48: Cost = 20001990, Gap = 0.096%, Time = 18.2 sec. 
+* 50: Cost = 20001941, Gap = 0.095%, Time = 18.6 sec. 
+* 53: Cost = 20001462, Gap = 0.093%, Time = 19.1 sec. 
+* 55: Cost = 20001204, Gap = 0.092%, Time = 19.3 sec. 
+* 57: Cost = 20001099, Gap = 0.091%, Time = 19.5 sec. 
+* 59: Cost = 20000815, Gap = 0.090%, Time = 19.8 sec. 
+* 68: Cost = 20000447, Gap = 0.088%, Time = 23.2 sec. 
+* 72: Cost = 20000304, Gap = 0.087%, Time = 24.3 sec. 
+* 73: Cost = 20000293, Gap = 0.087%, Time = 24.5 sec. 
+* 74: Cost = 19994765, Gap = 0.060%, Time = 25.1 sec. 
+* 75: Cost = 19994025, Gap = 0.056%, Time = 25.3 sec. 
+* 90: Cost = 19993293, Gap = 0.052%, Time = 28.2 sec. 
+* 104: Cost = 19992109, Gap = 0.046%, Time = 31.0 sec. 
+* 105: Cost = 19991745, Gap = 0.044%, Time = 31.3 sec. 
+* 106: Cost = 19991100, Gap = 0.041%, Time = 31.8 sec. 
+* 112: Cost = 19990841, Gap = 0.040%, Time = 33.5 sec. 
+* 114: Cost = 19990745, Gap = 0.039%, Time = 33.9 sec. 
+* 130: Cost = 19990733, Gap = 0.039%, Time = 37.3 sec. 
+* 133: Cost = 19990156, Gap = 0.037%, Time = 38.3 sec. 
+* 140: Cost = 19990021, Gap = 0.036%, Time = 40.8 sec. 
+* 143: Cost = 19986975, Gap = 0.021%, Time = 42.4 sec. 
+* 144: Cost = 19986865, Gap = 0.020%, Time = 42.7 sec. 
+* 145: Cost = 19986626, Gap = 0.019%, Time = 42.8 sec. 
+* 152: Cost = 19986581, Gap = 0.019%, Time = 44.6 sec. 
+* 154: Cost = 19986499, Gap = 0.018%, Time = 45.0 sec. 
+* 165: Cost = 19986246, Gap = 0.017%, Time = 47.2 sec. 
+* 267: Cost = 19985847, Gap = 0.015%, Time = 74.6 sec. 
+* 320: Cost = 19985294, Gap = 0.012%, Time = 89.2 sec. 
+* 371: Cost = 19985289, Gap = 0.012%, Time = 100.1 sec. 
+* 633: Cost = 19984406, Gap = 0.008%, Time = 158.9 sec. 
+* 651: Cost = 19984365, Gap = 0.008%, Time = 165.1 sec. 
+* 655: Cost = 19984354, Gap = 0.007%, Time = 166.7 sec. 
+* 688: Cost = 19984313, Gap = 0.007%, Time = 171.8 sec. 
+* 733: Cost = 19984171, Gap = 0.007%, Time = 180.6 sec. 
+* 779: Cost = 19984140, Gap = 0.006%, Time = 192.5 sec. 
+* 985: Cost = 19984121, Gap = 0.006%, Time = 233.8 sec. 
+* 1100: Cost = 19984097, Gap = 0.006%, Time = 263.4 sec. 
+* 1114: Cost = 19984088, Gap = 0.006%, Time = 265.5 sec. 
+* 1253: Cost = 19984040, Gap = 0.006%, Time = 293.1 sec. 
+* 1303: Cost = 19983799, Gap = 0.005%, Time = 304.6 sec. 
+* 1326: Cost = 19983781, Gap = 0.005%, Time = 314.8 sec. 
+* 1380: Cost = 19983759, Gap = 0.005%, Time = 329.9 sec. 
+* 1424: Cost = 19983590, Gap = 0.004%, Time = 338.3 sec. 
+* 1485: Cost = 19983338, Gap = 0.002%, Time = 350.5 sec. 
+* 1726: Cost = 19983174, Gap = 0.002%, Time = 407.2 sec. 
+* 1779: Cost = 19983162, Gap = 0.002%, Time = 420.1 sec. 
+* 3098: Cost = 19983087, Gap = 0.001%, Time = 737.1 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+* 6092: Cost = 19983086, Gap = 0.001%, Time = 1504.3 sec. 
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+Writing OUTPUT_TOUR_FILE: "usa13509.tour" ... done
+Run 2: Cost = 19982859, Gap = 0.000%, Time = 3565.9 sec. =
+
+* 1: Cost = 20004844, Gap = 0.110%, Time = 3.9 sec. 
+* 2: Cost = 20001138, Gap = 0.091%, Time = 5.7 sec. 
+* 3: Cost = 19998512, Gap = 0.078%, Time = 6.1 sec. 
+* 4: Cost = 19998219, Gap = 0.077%, Time = 6.2 sec. 
+* 5: Cost = 19997671, Gap = 0.074%, Time = 6.5 sec. 
+* 8: Cost = 19996444, Gap = 0.068%, Time = 9.2 sec. 
+* 12: Cost = 19996295, Gap = 0.067%, Time = 9.9 sec. 
+* 17: Cost = 19992517, Gap = 0.048%, Time = 10.8 sec. 
+* 18: Cost = 19992390, Gap = 0.048%, Time = 11.5 sec. 
+* 19: Cost = 19991727, Gap = 0.044%, Time = 11.7 sec. 
+* 20: Cost = 19991604, Gap = 0.044%, Time = 11.8 sec. 
+* 27: Cost = 19991522, Gap = 0.043%, Time = 12.8 sec. 
+* 32: Cost = 19991425, Gap = 0.043%, Time = 13.9 sec. 
+* 33: Cost = 19990799, Gap = 0.040%, Time = 14.1 sec. 
+* 40: Cost = 19990565, Gap = 0.039%, Time = 16.4 sec. 
+* 54: Cost = 19990147, Gap = 0.036%, Time = 20.0 sec. 
+* 66: Cost = 19989709, Gap = 0.034%, Time = 23.1 sec. 
+* 76: Cost = 19989492, Gap = 0.033%, Time = 25.3 sec. 
+* 83: Cost = 19989204, Gap = 0.032%, Time = 26.9 sec. 
+* 88: Cost = 19989170, Gap = 0.032%, Time = 27.8 sec. 
+* 133: Cost = 19988963, Gap = 0.031%, Time = 35.7 sec. 
+* 137: Cost = 19988736, Gap = 0.029%, Time = 37.3 sec. 
+* 144: Cost = 19988619, Gap = 0.029%, Time = 38.9 sec. 
+* 161: Cost = 19988605, Gap = 0.029%, Time = 42.3 sec. 
+* 194: Cost = 19988591, Gap = 0.029%, Time = 47.5 sec. 
+* 197: Cost = 19988546, Gap = 0.028%, Time = 49.5 sec. 
+* 215: Cost = 19988486, Gap = 0.028%, Time = 53.5 sec. 
+* 252: Cost = 19988110, Gap = 0.026%, Time = 60.9 sec. 
+* 254: Cost = 19988067, Gap = 0.026%, Time = 61.4 sec. 
+* 256: Cost = 19988006, Gap = 0.026%, Time = 61.7 sec. 
+* 308: Cost = 19987660, Gap = 0.024%, Time = 72.4 sec. 
+* 327: Cost = 19987550, Gap = 0.023%, Time = 76.5 sec. 
+* 366: Cost = 19987518, Gap = 0.023%, Time = 84.3 sec. 
+* 367: Cost = 19987345, Gap = 0.022%, Time = 84.6 sec. 
+* 450: Cost = 19986942, Gap = 0.020%, Time = 103.7 sec. 
+* 578: Cost = 19986912, Gap = 0.020%, Time = 130.8 sec. 
+* 593: Cost = 19986908, Gap = 0.020%, Time = 137.9 sec. 
+* 634: Cost = 19986867, Gap = 0.020%, Time = 148.5 sec. 
+* 657: Cost = 19986746, Gap = 0.019%, Time = 152.8 sec. 
+* 751: Cost = 19986674, Gap = 0.019%, Time = 180.3 sec. 
+* 948: Cost = 19986510, Gap = 0.018%, Time = 230.2 sec. 
+* 956: Cost = 19986422, Gap = 0.018%, Time = 231.2 sec. 
+* 957: Cost = 19986204, Gap = 0.017%, Time = 231.3 sec. 
+* 1073: Cost = 19985767, Gap = 0.015%, Time = 261.8 sec. 
+* 1157: Cost = 19984816, Gap = 0.010%, Time = 289.6 sec. 
+* 1354: Cost = 19984811, Gap = 0.010%, Time = 336.6 sec. 
+* 1809: Cost = 19984005, Gap = 0.006%, Time = 439.5 sec. 
+* 1870: Cost = 19983990, Gap = 0.006%, Time = 455.7 sec. 
+* 2135: Cost = 19983989, Gap = 0.006%, Time = 521.9 sec. 
+* 2164: Cost = 19983670, Gap = 0.004%, Time = 529.5 sec. 
+* 2170: Cost = 19983555, Gap = 0.003%, Time = 532.1 sec. 
+* 2171: Cost = 19983488, Gap = 0.003%, Time = 532.2 sec. 
+* 2439: Cost = 19983261, Gap = 0.002%, Time = 585.8 sec. 
+* 2443: Cost = 19982995, Gap = 0.001%, Time = 586.9 sec. 
+* 2560: Cost = 19982950, Gap = 0.000%, Time = 616.0 sec. 
+* 3025: Cost = 19982949, Gap = 0.000%, Time = 712.9 sec. 
+* 4482: Cost = 19982886, Gap = 0.000%, Time = 1095.5 sec. 
+* 4489: Cost = 19982874, Gap = 0.000%, Time = 1097.2 sec. 
+Run 3: Cost = 19982874, Gap = 0.000%, Time = 3056.9 sec. 
+
+* 1: Cost = 20009749, Gap = 0.135%, Time = 3.8 sec. 
+* 2: Cost = 20008677, Gap = 0.129%, Time = 5.7 sec. 
+* 3: Cost = 20007465, Gap = 0.123%, Time = 6.1 sec. 
+* 4: Cost = 20007399, Gap = 0.123%, Time = 6.6 sec. 
+* 6: Cost = 20006993, Gap = 0.121%, Time = 7.7 sec. 
+* 7: Cost = 20006392, Gap = 0.118%, Time = 8.0 sec. 
+* 9: Cost = 20006341, Gap = 0.118%, Time = 9.0 sec. 
+* 10: Cost = 20004684, Gap = 0.109%, Time = 9.4 sec. 
+* 12: Cost = 20003672, Gap = 0.104%, Time = 10.0 sec. 
+* 13: Cost = 20003240, Gap = 0.102%, Time = 10.1 sec. 
+* 14: Cost = 20003101, Gap = 0.101%, Time = 10.3 sec. 
+* 17: Cost = 20002058, Gap = 0.096%, Time = 10.7 sec. 
+* 21: Cost = 20001839, Gap = 0.095%, Time = 12.7 sec. 
+* 22: Cost = 20001308, Gap = 0.092%, Time = 13.1 sec. 
+* 23: Cost = 20000974, Gap = 0.091%, Time = 13.2 sec. 
+* 25: Cost = 20000972, Gap = 0.091%, Time = 13.6 sec. 
+* 26: Cost = 20000765, Gap = 0.090%, Time = 13.7 sec. 
+* 28: Cost = 20000688, Gap = 0.089%, Time = 14.2 sec. 
+* 32: Cost = 19995034, Gap = 0.061%, Time = 15.1 sec. 
+* 33: Cost = 19994770, Gap = 0.060%, Time = 15.7 sec. 
+* 45: Cost = 19993566, Gap = 0.054%, Time = 18.1 sec. 
+* 46: Cost = 19992340, Gap = 0.047%, Time = 18.3 sec. 
+* 47: Cost = 19991310, Gap = 0.042%, Time = 18.5 sec. 
+* 59: Cost = 19990957, Gap = 0.041%, Time = 21.7 sec. 
+* 64: Cost = 19990912, Gap = 0.040%, Time = 24.1 sec. 
+* 69: Cost = 19990692, Gap = 0.039%, Time = 25.3 sec. 
+* 76: Cost = 19990641, Gap = 0.039%, Time = 27.4 sec. 
+* 90: Cost = 19990475, Gap = 0.038%, Time = 30.2 sec. 
+* 108: Cost = 19990464, Gap = 0.038%, Time = 34.0 sec. 
+* 117: Cost = 19990346, Gap = 0.037%, Time = 36.1 sec. 
+* 143: Cost = 19988915, Gap = 0.030%, Time = 41.7 sec. 
+* 166: Cost = 19988901, Gap = 0.030%, Time = 48.6 sec. 
+* 169: Cost = 19988829, Gap = 0.030%, Time = 49.2 sec. 
+* 204: Cost = 19988570, Gap = 0.029%, Time = 57.1 sec. 
+* 219: Cost = 19988462, Gap = 0.028%, Time = 61.0 sec. 
+* 230: Cost = 19988438, Gap = 0.028%, Time = 62.9 sec. 
+* 250: Cost = 19988181, Gap = 0.027%, Time = 67.1 sec. 
+* 298: Cost = 19988067, Gap = 0.026%, Time = 77.5 sec. 
+* 314: Cost = 19988022, Gap = 0.026%, Time = 80.8 sec. 
+* 358: Cost = 19988018, Gap = 0.026%, Time = 89.2 sec. 
+* 360: Cost = 19987849, Gap = 0.025%, Time = 89.5 sec. 
+* 395: Cost = 19987830, Gap = 0.025%, Time = 95.8 sec. 
+* 444: Cost = 19987735, Gap = 0.024%, Time = 108.8 sec. 
+* 445: Cost = 19987598, Gap = 0.024%, Time = 108.9 sec. 
+* 560: Cost = 19987502, Gap = 0.023%, Time = 133.8 sec. 
+* 718: Cost = 19987423, Gap = 0.023%, Time = 177.9 sec. 
+* 730: Cost = 19987127, Gap = 0.021%, Time = 182.2 sec. 
+* 742: Cost = 19986942, Gap = 0.020%, Time = 184.8 sec. 
+* 743: Cost = 19986880, Gap = 0.020%, Time = 185.0 sec. 
+* 757: Cost = 19986625, Gap = 0.019%, Time = 187.5 sec. 
+* 761: Cost = 19986612, Gap = 0.019%, Time = 188.0 sec. 
+* 801: Cost = 19986380, Gap = 0.018%, Time = 197.6 sec. 
+* 808: Cost = 19986362, Gap = 0.018%, Time = 198.9 sec. 
+* 812: Cost = 19986348, Gap = 0.017%, Time = 199.6 sec. 
+* 814: Cost = 19986262, Gap = 0.017%, Time = 200.2 sec. 
+* 823: Cost = 19986215, Gap = 0.017%, Time = 204.1 sec. 
+* 1300: Cost = 19986110, Gap = 0.016%, Time = 312.1 sec. 
+* 1307: Cost = 19986008, Gap = 0.016%, Time = 314.1 sec. 
+* 1336: Cost = 19985836, Gap = 0.015%, Time = 321.1 sec. 
+* 1469: Cost = 19985601, Gap = 0.014%, Time = 352.9 sec. 
+* 1900: Cost = 19984934, Gap = 0.010%, Time = 484.7 sec. 
+* 1904: Cost = 19984660, Gap = 0.009%, Time = 486.0 sec. 
+* 1924: Cost = 19984585, Gap = 0.009%, Time = 489.6 sec. 
+* 1962: Cost = 19984525, Gap = 0.008%, Time = 500.6 sec. 
+* 2026: Cost = 19984524, Gap = 0.008%, Time = 514.8 sec. 
+* 2258: Cost = 19983573, Gap = 0.004%, Time = 578.1 sec. 
+* 2853: Cost = 19983569, Gap = 0.004%, Time = 711.5 sec. 
+Run 4: Cost = 19983569, Gap = 0.004%, Time = 3909.3 sec. 
+
+* 1: Cost = 20009576, Gap = 0.134%, Time = 4.5 sec. 
+* 2: Cost = 20006159, Gap = 0.117%, Time = 6.3 sec. 
+* 3: Cost = 20002529, Gap = 0.098%, Time = 7.2 sec. 
+* 4: Cost = 20002434, Gap = 0.098%, Time = 7.9 sec. 
+* 6: Cost = 20002202, Gap = 0.097%, Time = 8.3 sec. 
+* 7: Cost = 20001804, Gap = 0.095%, Time = 8.5 sec. 
+* 8: Cost = 20001321, Gap = 0.092%, Time = 9.1 sec. 
+* 10: Cost = 20000537, Gap = 0.088%, Time = 9.3 sec. 
+* 11: Cost = 19999093, Gap = 0.081%, Time = 9.4 sec. 
+* 15: Cost = 19998869, Gap = 0.080%, Time = 10.5 sec. 
+* 16: Cost = 19997309, Gap = 0.072%, Time = 10.8 sec. 
+* 18: Cost = 19996358, Gap = 0.068%, Time = 11.7 sec. 
+* 21: Cost = 19996008, Gap = 0.066%, Time = 12.2 sec. 
+* 22: Cost = 19995728, Gap = 0.064%, Time = 12.3 sec. 
+* 25: Cost = 19995715, Gap = 0.064%, Time = 12.9 sec. 
+* 26: Cost = 19995712, Gap = 0.064%, Time = 13.1 sec. 
+* 31: Cost = 19994936, Gap = 0.060%, Time = 14.6 sec. 
+* 33: Cost = 19994851, Gap = 0.060%, Time = 14.9 sec. 
+* 34: Cost = 19993681, Gap = 0.054%, Time = 15.1 sec. 
+* 36: Cost = 19993616, Gap = 0.054%, Time = 15.5 sec. 
+* 40: Cost = 19993147, Gap = 0.051%, Time = 16.5 sec. 
+* 42: Cost = 19992846, Gap = 0.050%, Time = 17.1 sec. 
+* 43: Cost = 19992823, Gap = 0.050%, Time = 17.3 sec. 
+* 44: Cost = 19992598, Gap = 0.049%, Time = 17.5 sec. 
+* 47: Cost = 19992424, Gap = 0.048%, Time = 19.1 sec. 
+* 49: Cost = 19992245, Gap = 0.047%, Time = 19.5 sec. 
+* 53: Cost = 19992180, Gap = 0.047%, Time = 20.4 sec. 
+* 59: Cost = 19992175, Gap = 0.047%, Time = 21.8 sec. 
+* 60: Cost = 19991994, Gap = 0.046%, Time = 21.9 sec. 
+* 63: Cost = 19991642, Gap = 0.044%, Time = 23.1 sec. 
+* 66: Cost = 19991625, Gap = 0.044%, Time = 23.8 sec. 
+* 86: Cost = 19990274, Gap = 0.037%, Time = 27.6 sec. 
+* 135: Cost = 19990237, Gap = 0.037%, Time = 36.0 sec. 
+* 143: Cost = 19989684, Gap = 0.034%, Time = 37.5 sec. 
+* 151: Cost = 19989116, Gap = 0.031%, Time = 38.7 sec. 
+* 189: Cost = 19988783, Gap = 0.030%, Time = 46.7 sec. 
+* 190: Cost = 19988625, Gap = 0.029%, Time = 47.0 sec. 
+* 194: Cost = 19988363, Gap = 0.028%, Time = 47.7 sec. 
+* 229: Cost = 19988150, Gap = 0.026%, Time = 53.4 sec. 
+* 236: Cost = 19987867, Gap = 0.025%, Time = 55.1 sec. 
+* 244: Cost = 19987770, Gap = 0.025%, Time = 56.5 sec. 
+* 318: Cost = 19987524, Gap = 0.023%, Time = 74.1 sec. 
+* 336: Cost = 19987507, Gap = 0.023%, Time = 77.2 sec. 
+* 339: Cost = 19987326, Gap = 0.022%, Time = 77.6 sec. 
+* 361: Cost = 19987286, Gap = 0.022%, Time = 83.4 sec. 
+* 389: Cost = 19987176, Gap = 0.022%, Time = 89.7 sec. 
+* 426: Cost = 19986973, Gap = 0.021%, Time = 99.4 sec. 
+* 432: Cost = 19986863, Gap = 0.020%, Time = 101.7 sec. 
+* 468: Cost = 19986618, Gap = 0.019%, Time = 110.3 sec. 
+* 487: Cost = 19986596, Gap = 0.019%, Time = 115.2 sec. 
+* 558: Cost = 19986558, Gap = 0.019%, Time = 140.1 sec. 
+* 725: Cost = 19986331, Gap = 0.017%, Time = 180.2 sec. 
+* 821: Cost = 19986326, Gap = 0.017%, Time = 200.7 sec. 
+* 954: Cost = 19986304, Gap = 0.017%, Time = 227.7 sec. 
+* 965: Cost = 19986091, Gap = 0.016%, Time = 231.0 sec. 
+* 970: Cost = 19985802, Gap = 0.015%, Time = 233.0 sec. 
+* 971: Cost = 19985579, Gap = 0.014%, Time = 233.3 sec. 
+* 973: Cost = 19985400, Gap = 0.013%, Time = 234.3 sec. 
+* 1005: Cost = 19985348, Gap = 0.012%, Time = 242.8 sec. 
+* 1164: Cost = 19985141, Gap = 0.011%, Time = 286.1 sec. 
+* 1382: Cost = 19984813, Gap = 0.010%, Time = 334.8 sec. 
+* 1395: Cost = 19984496, Gap = 0.008%, Time = 339.6 sec. 
+* 1733: Cost = 19984332, Gap = 0.007%, Time = 412.9 sec. 
+* 2044: Cost = 19984119, Gap = 0.006%, Time = 497.4 sec. 
+* 2047: Cost = 19984107, Gap = 0.006%, Time = 497.8 sec. 
+* 2111: Cost = 19983983, Gap = 0.006%, Time = 512.6 sec. 
+* 2116: Cost = 19983911, Gap = 0.005%, Time = 514.0 sec. 
+* 2277: Cost = 19983838, Gap = 0.005%, Time = 555.8 sec. 
+* 2295: Cost = 19983661, Gap = 0.004%, Time = 560.4 sec. 
+* 4266: Cost = 19983639, Gap = 0.004%, Time = 1035.0 sec. 
+* 4267: Cost = 19983387, Gap = 0.003%, Time = 1035.4 sec. 
+* 5189: Cost = 19983346, Gap = 0.002%, Time = 1244.6 sec. 
+* 5191: Cost = 19982950, Gap = 0.000%, Time = 1245.1 sec. 
+* 6120: Cost = 19982949, Gap = 0.000%, Time = 1458.5 sec. 
+* 6198: Cost = 19982874, Gap = 0.000%, Time = 1482.0 sec. 
+Run 5: Cost = 19982874, Gap = 0.000%, Time = 3523.2 sec. 
+
+* 1: Cost = 20007418, Gap = 0.123%, Time = 3.9 sec. 
+* 2: Cost = 20004050, Gap = 0.106%, Time = 4.7 sec. 
+* 3: Cost = 20003460, Gap = 0.103%, Time = 4.9 sec. 
+* 5: Cost = 20003076, Gap = 0.101%, Time = 5.8 sec. 
+* 6: Cost = 20002325, Gap = 0.097%, Time = 6.0 sec. 
+* 7: Cost = 20001182, Gap = 0.092%, Time = 6.8 sec. 
+* 8: Cost = 20000942, Gap = 0.090%, Time = 7.1 sec. 
+* 9: Cost = 19999738, Gap = 0.084%, Time = 7.4 sec. 
+* 10: Cost = 19999296, Gap = 0.082%, Time = 7.7 sec. 
+* 11: Cost = 19998248, Gap = 0.077%, Time = 7.9 sec. 
+* 12: Cost = 19998128, Gap = 0.076%, Time = 8.1 sec. 
+* 17: Cost = 19997962, Gap = 0.076%, Time = 9.0 sec. 
+* 19: Cost = 19997903, Gap = 0.075%, Time = 9.3 sec. 
+* 24: Cost = 19997097, Gap = 0.071%, Time = 10.9 sec. 
+* 26: Cost = 19997083, Gap = 0.071%, Time = 11.2 sec. 
+* 28: Cost = 19996764, Gap = 0.070%, Time = 11.7 sec. 
+* 29: Cost = 19996361, Gap = 0.068%, Time = 11.9 sec. 
+* 30: Cost = 19995433, Gap = 0.063%, Time = 12.1 sec. 
+* 31: Cost = 19995153, Gap = 0.062%, Time = 12.3 sec. 
+* 36: Cost = 19995058, Gap = 0.061%, Time = 13.4 sec. 
+* 43: Cost = 19994976, Gap = 0.061%, Time = 14.6 sec. 
+* 51: Cost = 19994795, Gap = 0.060%, Time = 16.2 sec. 
+* 52: Cost = 19993210, Gap = 0.052%, Time = 16.6 sec. 
+* 58: Cost = 19991075, Gap = 0.041%, Time = 18.6 sec. 
+* 60: Cost = 19990733, Gap = 0.039%, Time = 19.6 sec. 
+* 68: Cost = 19990504, Gap = 0.038%, Time = 21.8 sec. 
+* 71: Cost = 19990332, Gap = 0.037%, Time = 22.3 sec. 
+* 75: Cost = 19990175, Gap = 0.037%, Time = 22.9 sec. 
+* 95: Cost = 19989487, Gap = 0.033%, Time = 26.8 sec. 
+* 99: Cost = 19989051, Gap = 0.031%, Time = 28.0 sec. 
+* 106: Cost = 19988927, Gap = 0.030%, Time = 28.9 sec. 
+* 108: Cost = 19988837, Gap = 0.030%, Time = 29.2 sec. 
+* 109: Cost = 19988694, Gap = 0.029%, Time = 30.0 sec. 
+* 113: Cost = 19988014, Gap = 0.026%, Time = 30.6 sec. 
+* 115: Cost = 19987990, Gap = 0.026%, Time = 31.1 sec. 
+* 120: Cost = 19987900, Gap = 0.025%, Time = 31.9 sec. 
+* 129: Cost = 19987870, Gap = 0.025%, Time = 33.6 sec. 
+* 157: Cost = 19987709, Gap = 0.024%, Time = 39.9 sec. 
+* 164: Cost = 19987597, Gap = 0.024%, Time = 42.4 sec. 
+* 169: Cost = 19987379, Gap = 0.023%, Time = 43.1 sec. 
+* 179: Cost = 19987318, Gap = 0.022%, Time = 45.2 sec. 
+* 192: Cost = 19987301, Gap = 0.022%, Time = 46.5 sec. 
+* 254: Cost = 19987298, Gap = 0.022%, Time = 56.9 sec. 
+* 282: Cost = 19987191, Gap = 0.022%, Time = 61.1 sec. 
+* 348: Cost = 19987068, Gap = 0.021%, Time = 76.3 sec. 
+* 364: Cost = 19986950, Gap = 0.020%, Time = 79.2 sec. 
+* 389: Cost = 19986623, Gap = 0.019%, Time = 83.9 sec. 
+* 511: Cost = 19986418, Gap = 0.018%, Time = 108.7 sec. 
+* 566: Cost = 19986166, Gap = 0.017%, Time = 124.3 sec. 
+* 593: Cost = 19985215, Gap = 0.012%, Time = 131.3 sec. 
+* 782: Cost = 19984984, Gap = 0.011%, Time = 167.8 sec. 
+* 785: Cost = 19984807, Gap = 0.010%, Time = 168.4 sec. 
+* 809: Cost = 19984787, Gap = 0.010%, Time = 173.0 sec. 
+* 810: Cost = 19984693, Gap = 0.009%, Time = 173.1 sec. 
+* 816: Cost = 19984331, Gap = 0.007%, Time = 174.7 sec. 
+* 844: Cost = 19984063, Gap = 0.006%, Time = 182.4 sec. 
+* 863: Cost = 19984048, Gap = 0.006%, Time = 186.1 sec. 
+* 866: Cost = 19983988, Gap = 0.006%, Time = 186.8 sec. 
+* 1353: Cost = 19983987, Gap = 0.006%, Time = 278.9 sec. 
+* 1567: Cost = 19983974, Gap = 0.006%, Time = 334.4 sec. 
+* 1600: Cost = 19983742, Gap = 0.004%, Time = 341.9 sec. 
+* 3142: Cost = 19983737, Gap = 0.004%, Time = 682.4 sec. 
+* 4398: Cost = 19983677, Gap = 0.004%, Time = 953.0 sec. 
+* 4414: Cost = 19983573, Gap = 0.004%, Time = 956.6 sec. 
+* 4490: Cost = 19983569, Gap = 0.004%, Time = 972.3 sec. 
+Run 6: Cost = 19983569, Gap = 0.004%, Time = 3718.8 sec. 
+
+* 1: Cost = 20027465, Gap = 0.223%, Time = 3.6 sec. 
+* 2: Cost = 20013574, Gap = 0.154%, Time = 4.8 sec. 
+* 3: Cost = 20013260, Gap = 0.152%, Time = 5.3 sec. 
+* 4: Cost = 20012575, Gap = 0.149%, Time = 5.5 sec. 
+* 5: Cost = 20009483, Gap = 0.133%, Time = 5.9 sec. 
+* 7: Cost = 20009283, Gap = 0.132%, Time = 7.0 sec. 
+* 9: Cost = 20003429, Gap = 0.103%, Time = 7.7 sec. 
+* 12: Cost = 20001441, Gap = 0.093%, Time = 8.1 sec. 
+* 13: Cost = 20000952, Gap = 0.091%, Time = 8.4 sec. 
+* 14: Cost = 20000791, Gap = 0.090%, Time = 9.1 sec. 
+* 15: Cost = 20000461, Gap = 0.088%, Time = 9.4 sec. 
+* 18: Cost = 19999450, Gap = 0.083%, Time = 10.0 sec. 
+* 23: Cost = 19999228, Gap = 0.082%, Time = 10.8 sec. 
+* 29: Cost = 19998276, Gap = 0.077%, Time = 13.4 sec. 
+* 31: Cost = 19998211, Gap = 0.077%, Time = 13.8 sec. 
+* 36: Cost = 19998045, Gap = 0.076%, Time = 15.2 sec. 
+* 37: Cost = 19997987, Gap = 0.076%, Time = 15.5 sec. 
+* 38: Cost = 19997842, Gap = 0.075%, Time = 15.9 sec. 
+* 39: Cost = 19997093, Gap = 0.071%, Time = 16.2 sec. 
+* 41: Cost = 19996961, Gap = 0.071%, Time = 16.8 sec. 
+* 42: Cost = 19996660, Gap = 0.069%, Time = 17.5 sec. 
+* 43: Cost = 19996517, Gap = 0.068%, Time = 17.6 sec. 
+* 44: Cost = 19996481, Gap = 0.068%, Time = 17.8 sec. 
+* 49: Cost = 19996455, Gap = 0.068%, Time = 19.2 sec. 
+* 50: Cost = 19995350, Gap = 0.063%, Time = 19.3 sec. 
+* 52: Cost = 19995042, Gap = 0.061%, Time = 19.8 sec. 
+* 58: Cost = 19995010, Gap = 0.061%, Time = 20.7 sec. 
+* 66: Cost = 19994980, Gap = 0.061%, Time = 21.5 sec. 
+* 67: Cost = 19994898, Gap = 0.060%, Time = 21.7 sec. 
+* 69: Cost = 19994813, Gap = 0.060%, Time = 21.9 sec. 
+* 71: Cost = 19994642, Gap = 0.059%, Time = 22.8 sec. 
+* 99: Cost = 19994277, Gap = 0.057%, Time = 28.6 sec. 
+* 104: Cost = 19994067, Gap = 0.056%, Time = 29.4 sec. 
+* 117: Cost = 19994055, Gap = 0.056%, Time = 31.5 sec. 
+* 153: Cost = 19993938, Gap = 0.055%, Time = 38.5 sec. 
+* 158: Cost = 19993437, Gap = 0.053%, Time = 39.6 sec. 
+* 211: Cost = 19992921, Gap = 0.050%, Time = 53.4 sec. 
+* 215: Cost = 19992831, Gap = 0.050%, Time = 54.0 sec. 
+* 226: Cost = 19992716, Gap = 0.049%, Time = 56.6 sec. 
+* 228: Cost = 19992229, Gap = 0.047%, Time = 57.0 sec. 
+* 229: Cost = 19991880, Gap = 0.045%, Time = 57.6 sec. 
+* 234: Cost = 19991500, Gap = 0.043%, Time = 58.6 sec. 
+* 280: Cost = 19990667, Gap = 0.039%, Time = 68.7 sec. 
+* 422: Cost = 19990662, Gap = 0.039%, Time = 103.3 sec. 
+* 495: Cost = 19989973, Gap = 0.036%, Time = 122.5 sec. 
+* 499: Cost = 19989022, Gap = 0.031%, Time = 123.5 sec. 
+* 502: Cost = 19987425, Gap = 0.023%, Time = 124.0 sec. 
+* 521: Cost = 19987282, Gap = 0.022%, Time = 127.8 sec. 
+* 679: Cost = 19986947, Gap = 0.020%, Time = 156.8 sec. 
+* 687: Cost = 19986942, Gap = 0.020%, Time = 158.1 sec. 
+* 790: Cost = 19986923, Gap = 0.020%, Time = 180.6 sec. 
+* 792: Cost = 19986744, Gap = 0.019%, Time = 181.3 sec. 
+* 796: Cost = 19986503, Gap = 0.018%, Time = 181.9 sec. 
+* 798: Cost = 19986380, Gap = 0.018%, Time = 182.8 sec. 
+* 886: Cost = 19986314, Gap = 0.017%, Time = 217.4 sec. 
+* 1000: Cost = 19986109, Gap = 0.016%, Time = 252.2 sec. 
+* 1203: Cost = 19986064, Gap = 0.016%, Time = 317.7 sec. 
+* 1313: Cost = 19985838, Gap = 0.015%, Time = 351.0 sec. 
+* 1316: Cost = 19985517, Gap = 0.013%, Time = 352.6 sec. 
+* 1704: Cost = 19985353, Gap = 0.012%, Time = 471.5 sec. 
+* 1827: Cost = 19985350, Gap = 0.012%, Time = 508.6 sec. 
+* 1972: Cost = 19984545, Gap = 0.008%, Time = 566.4 sec. 
+* 2173: Cost = 19984338, Gap = 0.007%, Time = 639.8 sec. 
+* 2401: Cost = 19984324, Gap = 0.007%, Time = 694.6 sec. 
+* 2406: Cost = 19984313, Gap = 0.007%, Time = 695.5 sec. 
+* 2552: Cost = 19984291, Gap = 0.007%, Time = 731.5 sec. 
+* 2580: Cost = 19984039, Gap = 0.006%, Time = 738.7 sec. 
+* 4549: Cost = 19983602, Gap = 0.004%, Time = 1179.9 sec. 
+* 5690: Cost = 19983601, Gap = 0.004%, Time = 1574.3 sec. 
+* 12301: Cost = 19983580, Gap = 0.004%, Time = 3253.0 sec. 
+* 12305: Cost = 19983567, Gap = 0.004%, Time = 3253.9 sec. 
+* 12922: Cost = 19983254, Gap = 0.002%, Time = 3407.5 sec. 
+Run 7: Cost = 19983254, Gap = 0.002%, Time = 3577.4 sec. 
+
+* 1: Cost = 20008195, Gap = 0.127%, Time = 3.7 sec. 
+* 2: Cost = 20007756, Gap = 0.125%, Time = 4.7 sec. 
+* 4: Cost = 20007017, Gap = 0.121%, Time = 5.6 sec. 
+* 5: Cost = 20005580, Gap = 0.114%, Time = 5.8 sec. 
+* 6: Cost = 20005187, Gap = 0.112%, Time = 5.9 sec. 
+* 8: Cost = 20004554, Gap = 0.109%, Time = 6.7 sec. 
+* 9: Cost = 20003021, Gap = 0.101%, Time = 7.1 sec. 
+* 10: Cost = 20002856, Gap = 0.100%, Time = 7.4 sec. 
+* 12: Cost = 20002453, Gap = 0.098%, Time = 8.0 sec. 
+* 14: Cost = 20001521, Gap = 0.093%, Time = 8.5 sec. 
+* 16: Cost = 20001520, Gap = 0.093%, Time = 8.9 sec. 
+* 19: Cost = 20001421, Gap = 0.093%, Time = 10.0 sec. 
+* 21: Cost = 20001186, Gap = 0.092%, Time = 10.4 sec. 
+* 22: Cost = 20000968, Gap = 0.091%, Time = 10.7 sec. 
+* 24: Cost = 20000601, Gap = 0.089%, Time = 11.0 sec. 
+* 32: Cost = 20000199, Gap = 0.087%, Time = 12.7 sec. 
+* 34: Cost = 20000127, Gap = 0.086%, Time = 13.2 sec. 
+* 35: Cost = 19999886, Gap = 0.085%, Time = 13.3 sec. 
+* 39: Cost = 19999565, Gap = 0.084%, Time = 14.2 sec. 
+* 40: Cost = 19999234, Gap = 0.082%, Time = 14.4 sec. 
+* 41: Cost = 19998777, Gap = 0.080%, Time = 14.5 sec. 
+* 47: Cost = 19998551, Gap = 0.079%, Time = 15.9 sec. 
+* 55: Cost = 19998537, Gap = 0.078%, Time = 17.9 sec. 
+* 73: Cost = 19998460, Gap = 0.078%, Time = 21.8 sec. 
+* 83: Cost = 19997507, Gap = 0.073%, Time = 23.4 sec. 
+* 84: Cost = 19997129, Gap = 0.071%, Time = 23.7 sec. 
+* 87: Cost = 19996876, Gap = 0.070%, Time = 24.4 sec. 
+* 88: Cost = 19996541, Gap = 0.068%, Time = 24.8 sec. 
+* 89: Cost = 19996426, Gap = 0.068%, Time = 25.1 sec. 
+* 110: Cost = 19996390, Gap = 0.068%, Time = 31.7 sec. 
+* 147: Cost = 19996345, Gap = 0.067%, Time = 38.3 sec. 
+* 151: Cost = 19996264, Gap = 0.067%, Time = 38.8 sec. 
+* 160: Cost = 19996234, Gap = 0.067%, Time = 41.2 sec. 
+* 171: Cost = 19995466, Gap = 0.063%, Time = 43.9 sec. 
+* 201: Cost = 19995440, Gap = 0.063%, Time = 49.7 sec. 
+* 204: Cost = 19994954, Gap = 0.061%, Time = 50.9 sec. 
+* 211: Cost = 19987302, Gap = 0.022%, Time = 53.2 sec. 
+* 226: Cost = 19987241, Gap = 0.022%, Time = 58.0 sec. 
+* 230: Cost = 19987166, Gap = 0.022%, Time = 59.6 sec. 
+* 255: Cost = 19987161, Gap = 0.022%, Time = 68.1 sec. 
+* 339: Cost = 19986809, Gap = 0.020%, Time = 86.6 sec. 
+* 387: Cost = 19985858, Gap = 0.015%, Time = 106.1 sec. 
+* 394: Cost = 19985715, Gap = 0.014%, Time = 107.6 sec. 
+* 442: Cost = 19985702, Gap = 0.014%, Time = 118.9 sec. 
+* 559: Cost = 19985470, Gap = 0.013%, Time = 142.2 sec. 
+* 625: Cost = 19984321, Gap = 0.007%, Time = 156.4 sec. 
+* 716: Cost = 19984150, Gap = 0.006%, Time = 180.3 sec. 
+* 948: Cost = 19983978, Gap = 0.006%, Time = 224.0 sec. 
+* 1195: Cost = 19983814, Gap = 0.005%, Time = 276.5 sec. 
+* 1311: Cost = 19983792, Gap = 0.005%, Time = 300.7 sec. 
+* 1328: Cost = 19983540, Gap = 0.003%, Time = 304.8 sec. 
+* 1635: Cost = 19983466, Gap = 0.003%, Time = 362.5 sec. 
+* 2198: Cost = 19983366, Gap = 0.003%, Time = 485.9 sec. 
+* 2401: Cost = 19983365, Gap = 0.003%, Time = 548.2 sec. 
+* 3181: Cost = 19983364, Gap = 0.003%, Time = 754.5 sec. 
+* 3311: Cost = 19983340, Gap = 0.002%, Time = 794.6 sec. 
+* 3583: Cost = 19983137, Gap = 0.001%, Time = 862.2 sec. 
+* 3677: Cost = 19983027, Gap = 0.001%, Time = 894.0 sec. 
+* 8778: Cost = 19982995, Gap = 0.001%, Time = 2408.3 sec. 
+* 8844: Cost = 19982874, Gap = 0.000%, Time = 2436.2 sec. 
+Run 8: Cost = 19982874, Gap = 0.000%, Time = 3704.7 sec. 
+
+* 1: Cost = 20008804, Gap = 0.130%, Time = 4.7 sec. 
+* 2: Cost = 20004412, Gap = 0.108%, Time = 6.4 sec. 
+* 3: Cost = 20002128, Gap = 0.096%, Time = 6.8 sec. 
+* 4: Cost = 20001514, Gap = 0.093%, Time = 6.9 sec. 
+* 6: Cost = 20001277, Gap = 0.092%, Time = 7.5 sec. 
+* 7: Cost = 20000783, Gap = 0.090%, Time = 7.7 sec. 
+* 8: Cost = 20000585, Gap = 0.089%, Time = 7.9 sec. 
+* 9: Cost = 20000305, Gap = 0.087%, Time = 7.9 sec. 
+* 11: Cost = 19999997, Gap = 0.086%, Time = 8.2 sec. 
+* 12: Cost = 19999872, Gap = 0.085%, Time = 8.3 sec. 
+* 13: Cost = 19999030, Gap = 0.081%, Time = 8.8 sec. 
+* 14: Cost = 19998970, Gap = 0.081%, Time = 9.1 sec. 
+* 15: Cost = 19998833, Gap = 0.080%, Time = 9.1 sec. 
+* 16: Cost = 19997882, Gap = 0.075%, Time = 9.4 sec. 
+* 17: Cost = 19997685, Gap = 0.074%, Time = 9.7 sec. 
+* 18: Cost = 19997156, Gap = 0.072%, Time = 10.1 sec. 
+* 19: Cost = 19996743, Gap = 0.069%, Time = 10.3 sec. 
+* 24: Cost = 19996026, Gap = 0.066%, Time = 11.3 sec. 
+* 26: Cost = 19994897, Gap = 0.060%, Time = 11.9 sec. 
+* 28: Cost = 19993391, Gap = 0.053%, Time = 12.6 sec. 
+* 34: Cost = 19992980, Gap = 0.051%, Time = 14.1 sec. 
+* 37: Cost = 19992732, Gap = 0.049%, Time = 14.4 sec. 
+* 39: Cost = 19991956, Gap = 0.046%, Time = 14.8 sec. 
+* 44: Cost = 19991653, Gap = 0.044%, Time = 15.6 sec. 
+* 47: Cost = 19991252, Gap = 0.042%, Time = 16.2 sec. 
+* 48: Cost = 19990375, Gap = 0.038%, Time = 16.5 sec. 
+* 53: Cost = 19990238, Gap = 0.037%, Time = 17.8 sec. 
+* 60: Cost = 19990226, Gap = 0.037%, Time = 19.3 sec. 
+* 61: Cost = 19989920, Gap = 0.035%, Time = 19.6 sec. 
+* 64: Cost = 19989517, Gap = 0.033%, Time = 20.2 sec. 
+* 83: Cost = 19989466, Gap = 0.033%, Time = 24.2 sec. 
+* 84: Cost = 19989289, Gap = 0.032%, Time = 24.4 sec. 
+* 85: Cost = 19989157, Gap = 0.032%, Time = 24.7 sec. 
+* 87: Cost = 19989121, Gap = 0.031%, Time = 25.1 sec. 
+* 101: Cost = 19988801, Gap = 0.030%, Time = 27.5 sec. 
+* 109: Cost = 19988619, Gap = 0.029%, Time = 28.9 sec. 
+* 112: Cost = 19988529, Gap = 0.028%, Time = 29.3 sec. 
+* 114: Cost = 19988142, Gap = 0.026%, Time = 29.9 sec. 
+* 118: Cost = 19988022, Gap = 0.026%, Time = 30.7 sec. 
+* 129: Cost = 19987798, Gap = 0.025%, Time = 32.1 sec. 
+* 130: Cost = 19987661, Gap = 0.024%, Time = 32.3 sec. 
+* 132: Cost = 19987609, Gap = 0.024%, Time = 32.6 sec. 
+* 150: Cost = 19987301, Gap = 0.022%, Time = 34.8 sec. 
+* 155: Cost = 19987130, Gap = 0.021%, Time = 35.9 sec. 
+* 164: Cost = 19987070, Gap = 0.021%, Time = 37.3 sec. 
+* 176: Cost = 19986927, Gap = 0.020%, Time = 39.5 sec. 
+* 227: Cost = 19986695, Gap = 0.019%, Time = 47.7 sec. 
+* 350: Cost = 19986634, Gap = 0.019%, Time = 68.4 sec. 
+* 354: Cost = 19986139, Gap = 0.016%, Time = 69.0 sec. 
+* 514: Cost = 19985932, Gap = 0.015%, Time = 102.2 sec. 
+* 534: Cost = 19984981, Gap = 0.011%, Time = 107.3 sec. 
+* 672: Cost = 19984668, Gap = 0.009%, Time = 134.2 sec. 
+* 1654: Cost = 19984574, Gap = 0.009%, Time = 352.6 sec. 
+* 1847: Cost = 19984552, Gap = 0.008%, Time = 388.9 sec. 
+* 2039: Cost = 19984300, Gap = 0.007%, Time = 423.9 sec. 
+* 3538: Cost = 19984136, Gap = 0.006%, Time = 678.5 sec. 
+* 4550: Cost = 19984061, Gap = 0.006%, Time = 875.3 sec. 
+* 4858: Cost = 19983784, Gap = 0.005%, Time = 940.7 sec. 
+* 4860: Cost = 19983733, Gap = 0.004%, Time = 941.2 sec. 
+* 4870: Cost = 19983721, Gap = 0.004%, Time = 943.9 sec. 
+* 4885: Cost = 19983628, Gap = 0.004%, Time = 947.4 sec. 
+* 4989: Cost = 19983531, Gap = 0.003%, Time = 967.5 sec. 
+* 6697: Cost = 19983268, Gap = 0.002%, Time = 1339.7 sec. 
+* 6936: Cost = 19983029, Gap = 0.001%, Time = 1427.6 sec. 
+Run 9: Cost = 19983029, Gap = 0.001%, Time = 2971.1 sec. 
+
+* 1: Cost = 20004281, Gap = 0.107%, Time = 4.7 sec. 
+* 2: Cost = 20000603, Gap = 0.089%, Time = 6.0 sec. 
+* 3: Cost = 19997203, Gap = 0.072%, Time = 6.5 sec. 
+* 4: Cost = 19996872, Gap = 0.070%, Time = 6.7 sec. 
+* 6: Cost = 19996818, Gap = 0.070%, Time = 7.5 sec. 
+* 7: Cost = 19996586, Gap = 0.069%, Time = 7.9 sec. 
+* 10: Cost = 19996101, Gap = 0.066%, Time = 8.4 sec. 
+* 11: Cost = 19995987, Gap = 0.066%, Time = 8.6 sec. 
+* 13: Cost = 19995971, Gap = 0.066%, Time = 9.5 sec. 
+* 16: Cost = 19995946, Gap = 0.065%, Time = 10.6 sec. 
+* 18: Cost = 19995832, Gap = 0.065%, Time = 11.9 sec. 
+* 20: Cost = 19994388, Gap = 0.058%, Time = 12.5 sec. 
+* 24: Cost = 19993539, Gap = 0.053%, Time = 13.3 sec. 
+* 34: Cost = 19993448, Gap = 0.053%, Time = 16.1 sec. 
+* 38: Cost = 19992582, Gap = 0.049%, Time = 18.2 sec. 
+* 46: Cost = 19991225, Gap = 0.042%, Time = 20.5 sec. 
+* 52: Cost = 19990822, Gap = 0.040%, Time = 22.5 sec. 
+* 56: Cost = 19990685, Gap = 0.039%, Time = 24.1 sec. 
+* 58: Cost = 19990458, Gap = 0.038%, Time = 24.5 sec. 
+* 59: Cost = 19990364, Gap = 0.038%, Time = 24.7 sec. 
+* 64: Cost = 19990344, Gap = 0.037%, Time = 25.9 sec. 
+* 109: Cost = 19989940, Gap = 0.035%, Time = 37.6 sec. 
+* 111: Cost = 19989905, Gap = 0.035%, Time = 38.3 sec. 
+* 119: Cost = 19989751, Gap = 0.034%, Time = 40.2 sec. 
+* 137: Cost = 19989637, Gap = 0.034%, Time = 44.1 sec. 
+* 150: Cost = 19989532, Gap = 0.033%, Time = 47.4 sec. 
+* 151: Cost = 19989465, Gap = 0.033%, Time = 47.8 sec. 
+* 152: Cost = 19989111, Gap = 0.031%, Time = 47.9 sec. 
+* 154: Cost = 19988894, Gap = 0.030%, Time = 48.3 sec. 
+* 175: Cost = 19988723, Gap = 0.029%, Time = 52.7 sec. 
+* 193: Cost = 19988521, Gap = 0.028%, Time = 56.5 sec. 
+* 196: Cost = 19988338, Gap = 0.027%, Time = 57.3 sec. 
+* 203: Cost = 19988084, Gap = 0.026%, Time = 59.7 sec. 
+* 209: Cost = 19987995, Gap = 0.026%, Time = 61.0 sec. 
+* 219: Cost = 19987963, Gap = 0.026%, Time = 62.7 sec. 
+* 227: Cost = 19987790, Gap = 0.025%, Time = 64.1 sec. 
+* 337: Cost = 19987776, Gap = 0.025%, Time = 84.3 sec. 
+* 345: Cost = 19987608, Gap = 0.024%, Time = 86.2 sec. 
+* 347: Cost = 19987473, Gap = 0.023%, Time = 86.6 sec. 
+* 348: Cost = 19987332, Gap = 0.022%, Time = 86.7 sec. 
+* 349: Cost = 19986864, Gap = 0.020%, Time = 86.9 sec. 
+* 352: Cost = 19986819, Gap = 0.020%, Time = 87.8 sec. 
+* 374: Cost = 19986814, Gap = 0.020%, Time = 91.3 sec. 
+* 447: Cost = 19986812, Gap = 0.020%, Time = 103.4 sec. 
+* 448: Cost = 19986223, Gap = 0.017%, Time = 103.9 sec. 
+* 481: Cost = 19986172, Gap = 0.017%, Time = 109.6 sec. 
+* 526: Cost = 19985593, Gap = 0.014%, Time = 116.7 sec. 
+* 536: Cost = 19985247, Gap = 0.012%, Time = 118.7 sec. 
+* 556: Cost = 19984812, Gap = 0.010%, Time = 121.7 sec. 
+* 567: Cost = 19984745, Gap = 0.009%, Time = 123.9 sec. 
+* 570: Cost = 19984659, Gap = 0.009%, Time = 124.8 sec. 
+* 578: Cost = 19984651, Gap = 0.009%, Time = 128.4 sec. 
+* 691: Cost = 19984098, Gap = 0.006%, Time = 153.6 sec. 
+* 754: Cost = 19984009, Gap = 0.006%, Time = 164.6 sec. 
+* 760: Cost = 19983957, Gap = 0.005%, Time = 166.4 sec. 
+* 787: Cost = 19983934, Gap = 0.005%, Time = 171.1 sec. 
+* 811: Cost = 19983824, Gap = 0.005%, Time = 175.4 sec. 
+* 819: Cost = 19983497, Gap = 0.003%, Time = 176.9 sec. 
+* 969: Cost = 19983333, Gap = 0.002%, Time = 207.2 sec. 
+* 1333: Cost = 19983270, Gap = 0.002%, Time = 277.9 sec. 
+* 1335: Cost = 19983258, Gap = 0.002%, Time = 278.6 sec. 
+* 1404: Cost = 19983231, Gap = 0.002%, Time = 291.4 sec. 
+* 1419: Cost = 19983156, Gap = 0.001%, Time = 297.0 sec. 
+* 1486: Cost = 19983074, Gap = 0.001%, Time = 309.3 sec. 
+* 1571: Cost = 19983029, Gap = 0.001%, Time = 327.9 sec. 
+Run 10: Cost = 19983029, Gap = 0.001%, Time = 2760.8 sec. 
+
+Successes/Runs = 1/10 
+Cost.min = 19982859, Cost.avg = 19983103.40, Cost.max = 19983569
+Gap.min = 0.000%, Gap.avg = 0.001%, Gap.max = 0.004%
+Trials.min = 13509, Trials.avg = 13509.0, Trials.max = 13509
+Time.min = 2760.8 sec., Time.avg = 3406.1 sec., Time.max = 3909.3 sec.

@@ -1,0 +1,12 @@
+91c91
+< extern FILE *opt_tour, *report, *comp_report, *stat_report;
+---
+> extern FILE *report, *comp_report, *stat_report;
+104,105d103
+< void set_default_mmmas_parameters(void);
+< void set_default_mmmaslkh_parameters(void);
+143,146d140
+< 
+< void input_tour (void);
+< 
+< void output_tour (void);

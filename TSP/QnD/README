@@ -1,0 +1,17 @@
+QnD:
+  This follows the quick-and-dirty ACO approach. The command to run 
+  the code is
+        ./LKH instancename.par
+  In the filename.par file, there is the line:
+  INPUT_TOUR_FILE = instancename.ant.tour
+  The instancename.ant.tour file can be generated from the acotsp code.
+  The output of this code is an instancename.tour file.
+
+  The latest tests indicate that two TSP instances fl1577 and u1817, which 
+  LKHsolo did not solve to optimality, can be solved by QnD using the 
+  ACOsolo generated fl1577.ant.tour and u1817.ant.tour, respectively.
+
+    grep Length QnDresult/*.tour
+
+  All four instances that the LKHsolo was unable to solve to optimality, can
+  be solved by iterative approach mMMAS-LKH.

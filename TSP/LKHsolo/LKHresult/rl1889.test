@@ -1,0 +1,122 @@
+PARAMETER_FILE = rl1889.par
+Reading PROBLEM_FILE: "rl1889.tsp" ... done
+ASCENT_CANDIDATES = 50
+BACKBONE_TRIALS = 0
+BACKTRACKING = NO
+# CANDIDATE_FILE =
+CANDIDATE_SET_TYPE = ALPHA
+EXCESS = 0.000529381
+EXTRA_CANDIDATES = 0 
+EXTRA_CANDIDATE_SET_TYPE = QUADRANT
+GAIN23 = YES
+GAIN_CRITERION = YES
+INITIAL_PERIOD = 944
+INITIAL_STEP_SIZE = 1
+INITIAL_TOUR_ALGORITHM = WALK
+# INITIAL_TOUR_FILE = 
+INITIAL_TOUR_FRACTION = 1.000
+# INPUT_TOUR_FILE = 
+KICK_TYPE = 0
+KICKS = 1
+# MAX_BREADTH =
+MAX_CANDIDATES = 5 
+MAX_SWAPS = 1889
+MAX_TRIALS = 1889
+# MERGE_TOUR_FILE =
+MOVE_TYPE = 5
+NONSEQUENTIAL_MOVE_TYPE = 9
+OPTIMUM = 316536
+OUTPUT_TOUR_FILE = rl1889.tour
+PATCHING_A = 2 
+PATCHING_C = 3 
+# PI_FILE = 
+# POPULATION_SIZE = 0
+PRECISION = 100
+PROBLEM_FILE = rl1889.tsp
+RESTRICTED_SEARCH = YES
+RUNS = 10
+SEED = 1
+STOP_AT_OPTIMUM = YES
+SUBGRADIENT = YES
+# SUBPROBLEM_SIZE =
+# SUBPROBLEM_TOUR_FILE = 
+SUBSEQUENT_MOVE_TYPE = 5
+SUBSEQUENT_PATCHING = YES
+# TIME_LIMIT =
+# TOUR_FILE = 
+TRACE_LEVEL = 1
+
+Lower bound = 311305.0, Gap = 1.65%, Ascent time = 3.7 sec.
+Cand.min = 3, Cand.avg = 5.0, Cand.max = 5
+Preprocessing time = 3.8 sec.
+* 1: Cost = 316712, Gap = 0.056%, Time = 0.8 sec. 
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+* 2: Cost = 316701, Gap = 0.052%, Time = 1.1 sec. 
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+* 174: Cost = 316553, Gap = 0.005%, Time = 7.5 sec. 
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+* 276: Cost = 316549, Gap = 0.004%, Time = 19.6 sec. 
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+Run 1: Cost = 316549, Gap = 0.004%, Time = 62.0 sec. 
+
+* 1: Cost = 316888, Gap = 0.111%, Time = 0.5 sec. 
+* 2: Cost = 316708, Gap = 0.054%, Time = 0.9 sec. 
+* 3: Cost = 316697, Gap = 0.051%, Time = 1.1 sec. 
+* 59: Cost = 316549, Gap = 0.004%, Time = 4.6 sec. 
+Run 2: Cost = 316549, Gap = 0.004%, Time = 200.3 sec. 
+
+* 1: Cost = 317484, Gap = 0.299%, Time = 1.1 sec. 
+* 4: Cost = 317225, Gap = 0.218%, Time = 1.8 sec. 
+* 8: Cost = 317214, Gap = 0.214%, Time = 2.2 sec. 
+* 32: Cost = 316830, Gap = 0.093%, Time = 3.3 sec. 
+* 230: Cost = 316553, Gap = 0.005%, Time = 8.6 sec. 
+* 303: Cost = 316549, Gap = 0.004%, Time = 12.0 sec. 
+Run 3: Cost = 316549, Gap = 0.004%, Time = 48.2 sec. 
+
+* 1: Cost = 316564, Gap = 0.009%, Time = 0.7 sec. 
+* 21: Cost = 316553, Gap = 0.005%, Time = 3.3 sec. 
+* 1775: Cost = 316549, Gap = 0.004%, Time = 59.0 sec. 
+Run 4: Cost = 316549, Gap = 0.004%, Time = 61.7 sec. 
+
+* 1: Cost = 316553, Gap = 0.005%, Time = 0.8 sec. 
+* 56: Cost = 316549, Gap = 0.004%, Time = 8.8 sec. 
+Run 5: Cost = 316549, Gap = 0.004%, Time = 45.3 sec. 
+
+* 1: Cost = 317690, Gap = 0.365%, Time = 0.9 sec. 
+* 5: Cost = 317358, Gap = 0.260%, Time = 1.2 sec. 
+* 6: Cost = 316830, Gap = 0.093%, Time = 1.4 sec. 
+* 54: Cost = 316553, Gap = 0.005%, Time = 5.9 sec. 
+* 63: Cost = 316549, Gap = 0.004%, Time = 6.1 sec. 
+Run 6: Cost = 316549, Gap = 0.004%, Time = 48.2 sec. 
+
+* 1: Cost = 316812, Gap = 0.087%, Time = 1.0 sec. 
+* 3: Cost = 316553, Gap = 0.005%, Time = 1.4 sec. 
+Run 7: Cost = 316553, Gap = 0.005%, Time = 35.0 sec. 
+
+* 1: Cost = 316712, Gap = 0.056%, Time = 0.8 sec. 
+* 2: Cost = 316701, Gap = 0.052%, Time = 1.2 sec. 
+* 83: Cost = 316697, Gap = 0.051%, Time = 3.7 sec. 
+* 305: Cost = 316549, Gap = 0.004%, Time = 7.6 sec. 
+Run 8: Cost = 316549, Gap = 0.004%, Time = 189.3 sec. 
+
+* 1: Cost = 316564, Gap = 0.009%, Time = 0.9 sec. 
+* 10: Cost = 316560, Gap = 0.008%, Time = 2.9 sec. 
+* 364: Cost = 316549, Gap = 0.004%, Time = 14.9 sec. 
+Run 9: Cost = 316549, Gap = 0.004%, Time = 117.4 sec. 
+
+* 1: Cost = 318795, Gap = 0.714%, Time = 0.8 sec. 
+* 2: Cost = 316744, Gap = 0.066%, Time = 1.1 sec. 
+* 5: Cost = 316553, Gap = 0.005%, Time = 1.2 sec. 
+* 578: Cost = 316540, Gap = 0.001%, Time = 12.7 sec. 
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+* 890: Cost = 316536, Gap = 0.000%, Time = 32.0 sec. =
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+Writing OUTPUT_TOUR_FILE: "rl1889.tour" ... done
+Run 10: Cost = 316536, Gap = 0.000%, Time = 32.0 sec. =
+
+Successes/Runs = 1/10 
+Cost.min = 316536, Cost.avg = 316548.10, Cost.max = 316553
+Gap.min = 0.000%, Gap.avg = 0.004%, Gap.max = 0.005%
+Trials.min = 890, Trials.avg = 1789.1, Trials.max = 1889
+Time.min = 32.0 sec., Time.avg = 83.9 sec., Time.max = 200.3 sec.

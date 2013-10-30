@@ -1,0 +1,57 @@
+
+Parameter-settings: 
+
+max_tries		 20
+max_tours		 0
+max_time		 300.00
+seed		 1345199623
+optimum			 7542
+n_ants			 25
+nn_ants			 20
+alpha			 1.00
+beta			 2.00
+rho			 0.20
+q_0			 0.00
+elitist_ants		 0
+ras_ranks		 0
+ls_flag			 4
+nn_ls			 20
+dlb_flag		 1
+as_flag			 0
+eas_flag		 0
+ras_flag		 0
+mmas_flag		 0
+mmmas_flag		 1
+mmmaslkh_flag		 0
+bwas_flag		 0
+acs_flag		 0
+
+Best: 7542	 Iterations: 282492057	 B-Fac 1.14423	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations: 282492057	 B-Fac 1.08654	 Time 0.01	 Tot.time 0.01
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations: 282492057	 B-Fac 1.11538	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations: 282492057	 B-Fac 1.03846	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.01	 Tot.time 0.01
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations: 282492057	 B-Fac 1.03846	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations: 282492057	 B-Fac 1.07692	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations: 1905142130	 B-Fac 1.07692	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+Best: 7542	 Iterations:  16808	 B-Fac 1.00962	 Time 0.01	 Tot.time 0.01
+Best: 7542	 Iterations:  16808	 B-Fac 1.00000	 Time 0.00	 Tot.time 0.00
+
+Average-Best: 7542.00	 Average-Iterations: 180015648.80
+Stddev-Best: 0.00 	 Stddev Iterations: 426754239.43
+Best try: 7542		 Worst try: 7542
+
+Avg.time-best: 0.00 stddev.time-best: 0.00
+
+Avg.time-total: 0.00 stddev.time-total: 0.00
+ excess best = 0.000000, excess average = 0.000000, excess worst = 0.000000

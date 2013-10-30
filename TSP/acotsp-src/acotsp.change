@@ -1,0 +1,264 @@
+159c159
+<     if ( !(acs_flag || mmas_flag || mmmas_flag || mmmaslkh_flag || bwas_flag) ) {
+---
+>     if ( !(acs_flag || mmas_flag || bwas_flag) ) {
+177,186d176
+<     if ( mmmas_flag ) {
+< 	trail_max = 1. / ( (rho) * nn_tour() );
+< 	trail_min = trail_max / ( 2. * n );
+< 	init_pheromone_trails( trail_max );   
+<     }
+<     if ( mmmaslkh_flag ) {
+< 	trail_max = 1. / ( (rho) * nn_tour() );
+< 	trail_min = trail_max / ( 2. * n );
+< 	init_pheromone_trails( trail_max );   
+<     }
+231,233d220
+< 	case 4:
+< 	    two_p_opt( ant[k].tour );	     /* 2-opt-p local search*/
+< 	    break;
+272,273c259
+< 
+< 	if ( mmas_flag || mmmas_flag || mmmaslkh_flag ) {
+---
+> 	if ( mmas_flag ) {
+288c274
+< /*    if ( ant[iteration_best_ant].tour_length < restart_best_ant->tour_length ) {
+---
+>     if ( ant[iteration_best_ant].tour_length < restart_best_ant->tour_length ) {
+293,297d278
+< */
+< /*    if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+< 	copy_from_to( best_so_far_ant, ancestor_ant );
+<     }
+< */
+299a281,282
+> 
+> 
+317c300
+< 	if ( (mmas_flag || mmmas_flag || mmmaslkh_flag) && (branching_factor < branch_fac) && (iteration - restart_found_best > 250) ) {
+---
+> 	if ( mmas_flag && (branching_factor < branch_fac) && (iteration - restart_found_best > 250) ) {
+346,350d328
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+<     }
+< 
+369,373d346
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+<     }
+< 
+398,402d370
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+<     }
+< 
+422,423c390,392
+< void mmas_update ( void )
+< /*
+---
+> 
+> void mmas_update( void )
+> /*    
+427,428c396,397
+<       (SIDE)EFFECTS:  either the iteration-best or the best-so-far ant 
+< 		      deposit pheromone on matrix "pheromone"
+---
+>       (SIDE)EFFECTS:  either the iteration-best or the best-so-far ant deposit pheromone 
+>                       on matrix "pheromone"
+438,494d406
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+<     }
+< 
+<     if ( iteration % u_gb ) {
+<         iteration_best_ant = find_best();
+<         global_update_pheromone( &ant[iteration_best_ant] );
+<     }
+<     else {
+<         if ( u_gb == 1 && (iteration - restart_found_best > 50))
+<             global_update_pheromone( best_so_far_ant );
+<         else
+<             global_update_pheromone( restart_best_ant );
+<     }
+< 
+<     if ( ls_flag ) {
+<         /* implement the schedule for u_gb as defined in the
+<            Future Generation Computer Systems article or in Stuetzle's PhD thesis.
+<            This schedule is only applied if local search is used.
+<         */
+<         if ( ( iteration - restart_iteration ) < 25 )
+<             u_gb = 25;
+<         else if ( (iteration - restart_iteration) < 75 )
+<             u_gb = 5;
+<         else if ( (iteration - restart_iteration) < 125 )
+<             u_gb = 3;
+<         else if ( (iteration - restart_iteration) < 250 )
+<             u_gb = 2;
+<         else
+<             u_gb = 1;
+<     } else
+<         u_gb = 25;
+< 
+< }
+< 
+< 
+< void mmmas_update( void )
+< /*
+<       FUNCTION:       manage global pheromone deposit for modified MAX-MIN Ant System
+<       INPUT:          none
+<       OUTPUT:         none
+<       (SIDE)EFFECTS:  either the iteration-best ant deposits pheremone or
+< 		      the generation-best ant mixed with the best-so-far ant
+< 		      deposit pheromone on matrix "pheromone"
+< */
+< {
+<     long int iteration_best_ant;
+<     float r01, r10;
+<     r01 = ran01( &iteration );
+<     r10 = 1. - r01;
+<     TRACE ( printf("Modified-MIN-MAX Ant System pheromone deposit\n"); );
+< 
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+< 
+496,497c408,409
+<         iteration_best_ant = find_best();
+<         global_update_pheromone( &ant[iteration_best_ant] );
+---
+> 	iteration_best_ant = find_best();
+> 	global_update_pheromone( &ant[iteration_best_ant] );
+501,503c413,415
+<             global_update_pheromone( best_so_far_ant );
+<         else
+<             global_update_pheromone( restart_best_ant );
+---
+> 	    global_update_pheromone( best_so_far_ant );
+>         else 
+> 	    global_update_pheromone( restart_best_ant );
+505,518d416
+< }
+< else {
+<     if ( iteration % u_gb ) {
+<         iteration_best_ant = find_best();
+<         global_update_pheromone( &ant[iteration_best_ant] );
+<     }
+<     else {
+<         if ( u_gb == 1 && (iteration - restart_found_best > 50)){
+<             global_update_pheromone_mixed ( best_so_far_ant, r01 );
+<             global_update_pheromone_mixed ( ancestor_ant, r10 );
+<             }
+<         else
+<             global_update_pheromone( restart_best_ant );}
+< }
+540,578d437
+< void mmmaslkh_update( void )
+< /*
+<       FUNCTION:       manage global pheromone deposit for modified MAX-MIN Ant System
+< 		      with LKH local search
+<       INPUT:          none
+<       OUTPUT:         none
+<       (SIDE)EFFECTS:  either the iteration-best ant deposits pheremone or
+<                       the generation-best ant mixed with the best-so-far ant
+<                       deposit pheromone on matrix "pheromone"
+< */
+< {
+<     long int iteration_best_ant;
+<     float r01, r10;
+<     r01 = ran01( &iteration );
+<     r10 = 1. - r01;
+<     TRACE ( printf("Modified-MIN-MAX Ant System pheromone deposit\n"); );
+< 
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+< 
+<     if ( iteration % u_gb ) {
+<         iteration_best_ant = find_best();
+<         global_update_pheromone( &ant[iteration_best_ant] );
+<     }
+<     else {
+<         if ( u_gb == 1 && (iteration - restart_found_best > 50))
+<             global_update_pheromone( best_so_far_ant );
+<         else
+<             global_update_pheromone( restart_best_ant );
+<     }
+<     }
+<     else {
+<         global_update_pheromone_mixed ( ancestor_ant, r10 );
+<         if ( u_gb == 1 && (iteration - restart_found_best > 50))
+<             global_update_pheromone_mixed ( best_so_far_ant, r01 );
+<         else
+<             global_update_pheromone_mixed( restart_best_ant, r01 );
+<     }
+580,597d438
+<     if ( ls_flag ) {
+<         /* implement the schedule for u_gb as defined in the
+<            Future Generation Computer Systems article or in Stuetzle's PhD thesis.
+<            This schedule is only applied if local search is used.
+<         */
+<         if ( ( iteration - restart_iteration ) < 25 )
+<             u_gb = 25;
+<         else if ( (iteration - restart_iteration) < 75 )
+<             u_gb = 5;
+<         else if ( (iteration - restart_iteration) < 125 )
+<             u_gb = 3;
+<         else if ( (iteration - restart_iteration) < 250 )
+<             u_gb = 2;
+<         else
+<             u_gb = 1;
+<     } else
+<         u_gb = 25;
+< }
+612,616d452
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+<     }
+< 
+649,653d484
+<     if ( best_so_far_ant->tour_length < ancestor_ant->tour_length ) {
+<        copy_from_to( best_so_far_ant, ancestor_ant );
+<        printf("ancestor best: %ld\n", ancestor_ant->tour_length);
+<     }
+< 
+670c501
+<     if ( as_flag || eas_flag || ras_flag || bwas_flag || mmas_flag || mmmas_flag || mmmaslkh_flag ) {
+---
+>     if ( as_flag || eas_flag || ras_flag || bwas_flag || mmas_flag ) {
+672c503
+< 	    if ( mmas_flag || mmmas_flag || mmmaslkh_flag )
+---
+> 	    if ( mmas_flag )
+695,698d525
+<     else if ( mmmas_flag )
+< 	mmmas_update();
+<     else if ( mmmaslkh_flag )
+< 	mmmaslkh_update();
+709,712d535
+<     if ( mmmas_flag && !ls_flag )
+< 	check_pheromone_trail_limits();
+<     if ( mmmaslkh_flag && !ls_flag )
+< 	check_pheromone_trail_limits();
+717c540
+<     if ( as_flag || eas_flag || ras_flag || mmas_flag || mmmas_flag || mmmaslkh_flag || bwas_flag ) {
+---
+>     if ( as_flag || eas_flag || ras_flag || mmas_flag || bwas_flag ) {
+742a566
+> 
+745,746d568
+< input_tour();
+<     
+758d579
+< 
+775d595
+< printf("The ancestor best is %ld\n", ancestor_ant->tour_length);
+777,778d596
+< output_tour();
+< printf("The ancestor best is %ld\n", ancestor_ant->tour_length);

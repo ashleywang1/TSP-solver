@@ -1,0 +1,12 @@
+-i att48.tsp -n -l 4 -o 10628
+-i eil51.tsp -n -l 4 -o 426
+-i berlin52.tsp -n -l 4 -o 7542
+-i bier127.tsp -n -l 4 -o 118282
+-i ch130.tsp -n -l 4 -o 6110
+-i ch150.tsp -n -l 4 -o 6528
+-i gr202.tsp -n -l 4 -o 40160
+-i gr229.tsp -n -l 4 -o 134602
+-i pr439.tsp -n -l 4 -o 107217
+-i att532.tsp -n -l 4 -o 27686
+-i ali535.tsp -n -l 4 -o 202339
+-i d657.tsp -n -l 4 -o 48912

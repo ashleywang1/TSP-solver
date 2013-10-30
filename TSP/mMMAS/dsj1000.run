@@ -1,0 +1,1 @@
+./acotsp -i dsj1000.tsp -n -t 100 -e 0.5 -r 40 --seed 1344886828

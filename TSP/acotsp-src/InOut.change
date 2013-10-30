@@ -1,0 +1,181 @@
+101,103d100
+< extern ant_struct *ancestor_ant;
+< 
+< 
+106c103
+< FILE *opt_file, *optimal_tour, *report, *comp_report, *stat_report;
+---
+> FILE *report, *comp_report, *stat_report;
+113,236d109
+< void output_tour( void )
+< 
+< /*
+<       FUNCTION:       To save all of the optimal tour information to a file optimal_tour
+<       COMMENTS:       Edited July 5
+< */
+< 
+< {
+<     long int i;
+<     FILE *optimal_tour;
+<     char temp_buffer[LINE_BUF_LEN];
+< 
+< sprintf(temp_buffer,"%s.ant.tour",instance.name);
+<       TRACE ( printf("%s\n",temp_buffer); )
+<           optimal_tour = fopen(temp_buffer, "w");
+< 
+< fprintf(optimal_tour,"NAME : %s.ant.tour \n", instance.name);
+< fprintf(optimal_tour,"TYPE: TOUR\n");
+< fprintf(optimal_tour,"COMMENT : m-MMAS-LKH %s (LENGTH %ld)\n", instance.name, ancestor_ant->tour_length);
+< fprintf(optimal_tour,"COMMENT : \n" );
+< fprintf(optimal_tour,"DIMENSION : %ld (%ld)\n", n, ancestor_ant->tour_length);
+< 
+< if ( mmmas_flag ) {
+<   fprintf(optimal_tour, "TOUR_SECTION\n");
+<   for ( i = 0 ; i < n ; i++ ) {
+<     fprintf(optimal_tour,"%ld\n",
+<                     ancestor_ant->tour[i]+1);
+<   }
+< }
+< 
+< else if ( mmmaslkh_flag ) {
+<   fprintf(optimal_tour, "TOUR_SECTION\n");
+<   for ( i = 0 ; i < n ; i++ ) {
+<     fprintf(optimal_tour,"%ld\n",
+<                     best_so_far_ant->tour[i]+1);
+<   }
+< }
+<  
+< else if ( mmas_flag ) {
+<   fprintf(optimal_tour, "TOUR_SECTION\n");
+<   for ( i = 0 ; i < n ; i++ ) {
+<     fprintf(optimal_tour,"%ld\n",
+<                     ancestor_ant->tour[i]+1);
+<   }
+< }
+< 
+< else {
+<   fprintf(optimal_tour, "TOUR_SECTION\n");
+<   for ( i = 0 ; i < n ; i++ ) {
+<     fprintf(optimal_tour,"%ld\n",
+<                     ancestor_ant->tour[i]+1);
+<   }
+< }
+< fprintf(optimal_tour, "-1\nEOF");
+<     }
+< 
+< 
+< void input_tour (void)
+< {
+< #define MAXCHAR 1000
+< 
+<     FILE         *opt_file;
+<     char         temp_buffer[LINE_BUF_LEN];
+<     int i = 0;
+<     int j=0;
+<     int k=0;
+<     int l=0;
+<     int u = 0;
+<     int y = 0;
+<     char waste[100];
+<     char temp[10];
+< 
+< 
+< 
+< sprintf(temp_buffer,"%s.tour",instance.name);
+<       TRACE ( printf("%s\n",temp_buffer); )
+<           opt_file = fopen(temp_buffer, "r");
+< 
+<   if ( opt_file == NULL ) {
+<        ancestor_ant->tour_length = INFTY;
+< 
+< printf("No input tour files\n");
+<     }
+<   else {
+< /*    assert(opt_file != NULL);
+< */
+<     printf("\nreading opt-file %s ... \n\n", temp_buffer);
+<     fgets(waste, MAXCHAR, opt_file);
+<     fgets(waste, MAXCHAR, opt_file);
+<     fgets(waste, MAXCHAR, opt_file);
+<     fgets(waste, MAXCHAR, opt_file);
+<     fgets(waste, MAXCHAR, opt_file);
+<     fgets(waste, MAXCHAR, opt_file);
+<     printf("I have read the header %s \n", waste);
+<     
+<       while (fgets(temp, MAXCHAR, opt_file) != NULL) {
+< if (atoi(temp) != -1){
+< 
+< ancestor_ant->tour[i]=atoi(temp)-1;
+< /*
+< printf("I have now scanned %ld\n", ancestor_ant->tour[i]);
+< */
+< i++;
+< }
+< }
+< for (i=0;i<n-1;i++) {
+< 
+< j = ancestor_ant->tour[i];
+< k = ancestor_ant->tour[i+1];
+< u = ancestor_ant->tour[0];
+< y = ancestor_ant->tour[n-1];
+< 
+< l += instance.distance[j][k];
+< 
+< ancestor_ant->tour_length = l + instance.distance[y][u]; 
+<    			 }
+< printf("THE ANCESTOR TOUR IS %ld\n", ancestor_ant->tour_length);
+< 	}
+< ancestor_ant->tour[n] = ancestor_ant->tour[0];
+< }
+< 
+< 
+< 
+< 
+317c190
+< 	    assert ( n > 2 && n < 100009);
+---
+> 	    assert ( n > 2 && n < 100000);
+447,448d319
+<     fprintf(stream,"mmmas_flag\t\t %ld\n", mmmas_flag);
+<     fprintf(stream,"mmmaslkh_flag\t\t %ld\n", mmmaslkh_flag);
+537,565d407
+< set_default_mmmas_parameters (void)
+< {
+<     assert (mmmas_flag);
+<     n_ants         = -1;    /* number of ants (-1 means instance size) */
+<     nn_ants        = 20;    /* number of nearest neighbours in tour construction */
+<     alpha          = 1.0;
+<     beta           = 2.0;
+<     rho            = 0.02;
+<     q_0            = 0.0;
+<     ras_ranks      = 0;
+<     elitist_ants   = 0;
+< }
+< 
+< void
+< set_default_mmmaslkh_parameters (void)
+< {
+<     assert (mmmaslkh_flag);
+<     n_ants         = -1;    /* number of ants (-1 means instance size) */
+<     nn_ants        = 20;    /* number of nearest neighbours in tour construction */
+<     alpha          = 1.0;
+<     beta           = 2.0;
+<     rho            = 0.02;
+<     q_0            = 0.0;
+<     ras_ranks      = 0;
+<     elitist_ants   = 0;
+< }
+< 
+< 
+< void
+592c434
+<     if (mmas_flag || mmmas_flag || mmmaslkh_flag ) {
+---
+>     if (mmas_flag) {
+633,634d474
+<     mmmas_flag     = FALSE; 
+<     mmmaslkh_flag  = FALSE; 
+849d688
+< 
+893d731
+<       optimal_tour = NULL;

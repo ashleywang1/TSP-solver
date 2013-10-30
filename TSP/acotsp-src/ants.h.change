@@ -1,0 +1,21 @@
+77,84c77
+< extern ant_struct *ancestor_ant;
+< /*
+< typedef struct {
+<   long int ancestor_tour_length;
+<   long int ancestor_tour[1000];
+< } gen_struct;
+< extern ant_struct *ancestor_ant;
+< */
+---
+> 
+105,106d97
+< extern long int mmmas_flag;  /* modified MAX-MIN ant system */
+< extern long int mmmaslkh_flag; /* m-MAX-MIN-LinKerninghanHeuristic ant system */
+136,137d126
+< void global_update_pheromone_mixed( ant_struct *a, double weight );
+< 
+189,191d177
+< 
+< void psaco_pheromone_trail_update (void);
+< 

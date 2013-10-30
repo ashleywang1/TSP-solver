@@ -1,0 +1,55 @@
+208,213d207
+< /* Set to 1 if option --mmmas (-n) has been specified. */
+< unsigned int opt_mmmas : 1;
+< 
+< /* Set to 1 if option --mmmaslkh (-j) has been specified. */
+< unsigned int opt_mmmaslkh : 1;
+< 
+332,333d325
+<   options->opt_mmmas = 0;
+<   options->opt_mmmaslkh = 0;
+950,955d941
+< 	  break;
+< 	 case 'n':
+< 	  options->opt_mmmas = 1;
+< 	  break;
+<          case 'j':
+<           options->opt_mmmaslkh = 1;
+1091c1077
+<     if (options.opt_as + options.opt_eas + options.opt_ras + options.opt_mmas + options.opt_mmmas + options.opt_mmmaslkh
+---
+>     if (options.opt_as + options.opt_eas + options.opt_ras + options.opt_mmas
+1093,1096d1078
+< 	printf( "MMAS %d", options.opt_mmas);
+< 	printf( "MMMAS %d", options.opt_mmmas);
+< 	printf( "MMMASLKH %d", options.opt_mmmaslkh);
+< 
+1099c1081
+<     } else if (options.opt_as + options.opt_eas + options.opt_ras + options.opt_mmas + options.opt_mmmas + options.opt_mmmaslkh
+---
+>     } else if (options.opt_as + options.opt_eas + options.opt_ras + options.opt_mmas
+1101c1083
+<         as_flag = eas_flag = ras_flag = mmas_flag = mmmas_flag = mmmaslkh_flag = bwas_flag = acs_flag = FALSE;
+---
+>         as_flag = eas_flag = ras_flag = mmas_flag = bwas_flag = acs_flag = FALSE;
+1122,1133d1103
+<     if (options.opt_mmmas || mmmas_flag) {
+<         mmmas_flag = TRUE;
+<         set_default_mmmas_parameters();
+<         fprintf(stdout,"mmmas_flag is set to 1, run MAX-MIN Ant System\n");
+<     }
+< 
+<     if (options.opt_mmmaslkh || mmmaslkh_flag) {
+<         mmmaslkh_flag = TRUE;
+<         set_default_mmmaslkh_parameters();
+<         fprintf(stdout,"mmmaslkh_flag is set to 1, run MAX-MIN Ant System\n");
+<     }
+< 
+1151c1121
+<         check_out_of_range(ls_flag, 0, 4, "ls_flag");
+---
+>         check_out_of_range(ls_flag, 0, 3, "ls_flag");
+1166,1168d1135
+<         case 4:
+<             fprintf(stdout,"\tNote: local search flag is set to default 4 (2-p-opt)\n");
+<             break;

@@ -1,0 +1,22 @@
+The modified acotsp code can optionally read in instancename.tour file
+as generation_best (or ancestor_best in the code). The tour file will not 
+be used in pheromone update in MMAS (-x) or ACS (-z), but will be used in
+mMMAS (-n) and mMMAS-LKH (-j).
+
+To get the best of all AS options, one can use:
+
+  ./acotsp -i instancename.tsp -z
+  cp instancename.ant.tour instancename.tour
+  ./acotsp -i instancename.tsp -x
+  cp instancename.ant.tour instancename.tour
+  ./acotsp -i instancename.tsp -n
+
+Please note that the user must manually check the tour length and choose
+the best output instancename.ant.tour among all those calculations.
+The specific results can be found in directory ACOresult
+
+To check those results, use command line:
+
+  grep "LENGTH" ACOresult/*.tour
+
+-->The first column of Table I.

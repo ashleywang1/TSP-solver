@@ -1,0 +1,36 @@
+73d72
+< ant_struct *ancestor_ant;
+94,95d92
+< long int mmmas_flag;  /* modified MAX-MIN ant system */
+< long int mmmaslkh_flag; /* m-MAX-MIN-LinKerninghanHeuristic ant system */
+150,156d146
+<     if((ancestor_ant = malloc(sizeof( ant_struct ) )) == NULL){
+<         printf("Out of memory, exit.");
+<         exit(1);
+<     }
+<     ancestor_ant->tour        = calloc(n+1, sizeof(long int));
+<     ancestor_ant->visited     = calloc(n, sizeof(char));
+< 
+342,363d331
+< void global_update_pheromone_mixed( ant_struct *a, double weight )
+< /*
+<       FUNCTION:      reinforces edges of the ant's tour with weight "random"
+<       INPUT:         pointer to ant that updates pheromones and its weight
+<       OUTPUT:        none
+<       (SIDE)EFFECTS: pheromones of arcs in the ant's tour are increased
+< */
+< {
+<     long int      i, j, h;
+<     double        d_tau;
+<     TRACE ( printf("global pheromone update weighted\n"); );
+< 
+<     d_tau = (double) weight / (double) a->tour_length;
+<     for ( i = 0 ; i < n ; i++ ) {
+<         j = a->tour[i];
+<         h = a->tour[i+1];
+<         pheromone[j][h] += d_tau;
+<         pheromone[h][j] = pheromone[j][h];
+<     }
+< }
+< 
+< 

@@ -1,0 +1,6 @@
+Use LKH to run the TSP problems
+  ./LKH instancename.par
+
+The results are in directory LKHresult 
+The results of LKH in Table I can be read off from the command:
+  grep Length LKHresult/*.tour 
